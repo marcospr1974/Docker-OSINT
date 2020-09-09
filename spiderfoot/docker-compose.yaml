@@ -4,6 +4,7 @@ services:
 
     spiderfoot:
         build: .
+        image: spiderfoot:3.0
         hostname: spiderfoot
         container_name: spiderfoot
         restart: always
