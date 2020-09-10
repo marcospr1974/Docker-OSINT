@@ -12,6 +12,16 @@ Estas técnicas pueden ser utilizadas para su aplicación en:
   * Realizar estudios de marketing avanzados.
   * Es una de las prácticas más comunes cuando se llevan a cabo auditorías de seguridad y privacidad en empresas o cualquier otro tipo de organización que quiera evaluar su privacidad/seguridad.
   * Es también una de las fases iniciales de una campaña de Amenaza Persistente Avanzada (APT) o de casi cualquier ataque dirigido.
+
+Algunos ejemplos de las herramientas más conocidas, aunque existen gran cantidad de herramientas disponibles para labores de OSINT:
+
+  * Hacking con buscadores: búsqueda parametrizada a través de los buscadores más conocidos como Google, Bing, Duck Duck Go o Yahoo.
+  * Buscadores especializados en personas: Spokeo, Pipl, etc.
+  * Herramientas de extracción de metadatos como Foca o Metagoofil.
+  * Distribuciones temáticas de OSINT como “Buscador”.
+  * Herramientas específicas de OSINT en RR.SS como Tinfolileak o Creepy.
+  * Reconocimiento de dominios: Aquatone o EyeWitness.
+  * Soluciones completas como Maltego.
     
 # Docker-OSINT
 
