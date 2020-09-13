@@ -1,9 +1,14 @@
 FROM python:3-alpine
 
 RUN apk add --update --no-cache git bash
-WORKDIR h8mail
-RUN pip3 install requests
-COPY . .
-RUN ["python", "setup.py", "install"]
+
+RUN pip3 install requests \
+   && git clone https://github.com/khast3x/h8mail.git \
+   && cd /h8mail \
+   && python setup.py install \
+   && mkdir /output
+
+VOLUME /output
+
 ENTRYPOINT ["h8mail"]
 CMD ["-h"]

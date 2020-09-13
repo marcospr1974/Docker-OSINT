@@ -13,4 +13,3 @@ RUN apk update \
 VOLUME /downloads
 
 ENTRYPOINT ["googleimagesdownload"]
-CMD ["-h"]
