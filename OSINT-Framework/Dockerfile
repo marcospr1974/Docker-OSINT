@@ -7,11 +7,10 @@ RUN apk update \
     && git clone https://github.com/lockfale/OSINT-Framework.git \
     && cd /OSINT-Framework/public 
 
-COPY arf.json /OSINT-Framework/public 
-COPY index.html /OSINT-Framework/public 
-
 EXPOSE 8000
 WORKDIR /OSINT-Framework/public 
+
+VOLUME /OSINT-Framework/public 
 
 # Run the application.
 ENTRYPOINT ["/usr/bin/npm"]
