@@ -9,5 +9,7 @@ RUN apk update && apk add git \
 
 WORKDIR /Nmap-Scan-to-CSV
 
+VOLUME ["/input", "/output"]
+
 ENTRYPOINT ["python", "nmap_xml_parser.py"]
 CMD ["-h"]

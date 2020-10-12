@@ -9,5 +9,7 @@ RUN apk update && apk add git \
 
 WORKDIR /SSLScan-to-CSV
 
+VOLUME ["/input", "/output"]
+
 ENTRYPOINT ["python", "sslscan_csv.py"]
 CMD ["-h"]
