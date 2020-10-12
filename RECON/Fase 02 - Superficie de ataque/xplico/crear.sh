@@ -1,1 +1,1 @@
-docker build -t xplico .
+docker build . -t xplico:latest

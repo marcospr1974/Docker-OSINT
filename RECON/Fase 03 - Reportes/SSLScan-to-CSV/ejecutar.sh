@@ -1,1 +1,1 @@
-docker run --rm -ti -v $PWD/intpu:/input -v $PWD/output:/output sslscan-to-csv:latest $@
+docker run --rm -ti -v "${PWD}/intput":/input -v "${PWD}/output":/output sslscan-to-csv:latest $@
