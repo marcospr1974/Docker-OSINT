@@ -1,1 +1,1 @@
-docker run -d makertim/webmap:latest
+docker run -d -p 8000:8000 -v "${PWD}/xml":/opt/xml webmap:latest
