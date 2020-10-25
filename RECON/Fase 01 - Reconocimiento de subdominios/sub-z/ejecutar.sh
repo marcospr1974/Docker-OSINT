@@ -1,1 +1,1 @@
-docker run --rm -ti sub-z:latest $@
+docker run --rm -ti -v sub-z:latest $@
