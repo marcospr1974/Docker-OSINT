@@ -4,7 +4,7 @@ MAINTAINER Marcos Pablo Russo <marcospr1974@gmail.com>
 
 RUN apk update \
     && apk add git \
-    && git clone https://github.com/instaloader/instaloader.git \
+    && git clone https://github.com/instaloader/instaloader.git --branch v4.5.3 \
     && cd /instaloader \
     && python3 setup.py install \
     && mkdir -p /root/.config/instaloader

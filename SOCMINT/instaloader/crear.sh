@@ -1,1 +1,1 @@
-docker build . -t instaloader:4.5.2
+docker build . -t instaloader:4.5.3
