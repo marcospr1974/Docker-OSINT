@@ -1,1 +1,1 @@
-docker build . -t osintgram:0.6
+docker build . -t osintgram:0.8
