@@ -1,1 +1,1 @@
-docker build . -t twint:2.1.20
+docker build . -t twint:2.1.21
