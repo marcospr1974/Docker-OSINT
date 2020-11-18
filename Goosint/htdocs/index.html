@@ -1,0 +1,807 @@
+<!DOCTYPE html>
+<html lang="es-AR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>GIIS</title>
+
+  <!-- MDB icon -->
+  <link rel="icon" href="static/img/mdb-favicon.ico" type="image/x-icon">
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+ 
+  <!-- Google Fonts Roboto -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap">
+
+  <!-- Bootstrap core CSS -->
+  <link rel="stylesheet" href="static/css/bootstrap.min.css">
+
+  <!-- Material Design Bootstrap -->
+  <link rel="stylesheet" href="static/css/mdb.min.css">
+
+  <!-- Your custom styles (optional) -->
+  <link rel="stylesheet" href="static/css/style.css">
+</head>
+
+<body>
+  <!-- Start your project here-->  
+  <div style="height: 18vh">
+    <div class="flex-center flex-column"> 
+      <img src='static/img/goosint.png' width=600>
+      <!-- <h5 class="animated fadeIn mb-3">Gracias por utilizar nuestro proyecto Goosint.</h5> -->
+        <h5 class="animated fadeIn mb-3">GIIS - Grupo 8</h5>
+    </div>
+  </div>
+
+  <!-- Grid row -->
+  <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+    <li class="nav-item">
+      <a class="nav-link active" id="pills-google-avanzado-tab" data-toggle="pill" href="#pills-google-avanzado" role="tab"
+        aria-controls="pills-home" aria-selected="false">B&uacute;scadores Avanzados
+      </a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" id="pills-redes-sociales-tab" data-toggle="pill" href="#pills-redes-sociales" role="tab"
+        aria-controls="pills-profile" aria-selected="false">Redes Sociales</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" id="pills-instagram-tab" data-toggle="pill" href="#pills-instagram" role="tab"
+        aria-controls="pills-profile" aria-selected="false">Instagram</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" id="pills-google-dorks-tab" data-toggle="pill" href="#pills-google-dorks" role="tab"
+        aria-controls="pills-contact" aria-selected="false">Google Dorks</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" id="pills-bing-dorks-tab" data-toggle="pill" href="#pills-bing-dorks" role="tab"
+        aria-controls="pills-contact" aria-selected="false">Bing Dorks</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" id="pills-twitter-tab" data-toggle="pill" href="#pills-twitter-dorks" role="tab"
+        aria-controls="pills-contact" aria-selected="false">Twitter Dorks</a>
+    </li>
+  </ul>
+
+  <!-- Buscadores avanzados google -->
+  <div class="tab-content" id="pills-tabContent">
+    <div class="tab-pane fade show active" id="pills-google-avanzado" role="tabpanel" aria-labelledby="pills-google-avanzado-tab">
+      <!-- Comienzo del Formulario Buscadores Avanzados en Google -->
+      <form class="text-center border border-light p-5" name="googleSearch">
+          <p class="h4 mb-4">B&uacute;squeda Avanzada en Google</p>
+          <div class="form-row mb-4">
+              <div class="col">
+                <input type="text" autofocus="autofucs" name="as_q" class="form-control" placeholder="Palabras a buscar">
+              </div>
+              <div class="col">
+                <input type="text" id="as_epq" name="as_epq" class="form-control" placeholder="Palabras que deben aparecer en los resultados">
+              </div>
+          </div>
+
+          <!-- Cualquier de estas palabras, ninguna de estas palabras -->
+          <div class="form-row mb-4">
+            <div class="col">
+              <input type="text" id="as_oq" name="as_oq" class="form-control" placeholder="Cualquiera de estas palabras">
+            </div>
+            <div class="col">
+              <input type="text" id="as_eq" name="as_eq" class="form-control" placeholder="Ninguna de estas palabras">
+            </div>
+          </div>
+
+          <!-- Numero desde, numero hasta-->
+          <div class="form-row mb-4">
+            <div class="col">
+              <input type="text" id="as_nlo" name="as_nlo" class="form-control" placeholder="N&uacute;mero desde">
+            </div>
+            <div class="col">
+              al
+            </div>
+            <div class="col">
+              <input type="text" id="as_nhi" name="as_nhi" class="form-control" placeholder="N&uacute;mero hasta">
+            </div>
+          </div>
+          
+          <!-- Idioma, Region, Ultima actualizacion -->
+          <div class="form-row mb-4">
+            <div class="col">Idioma
+              <select class="browser-default custom-select mb-3" id="lr">
+                <option selected="selected" value="">cualquier idioma</option>
+                <option value="lang_af">Afrik&aacute;acans</option>
+                <option value="lang_de">Alem&aacute;n</option>
+                <option value="lang_ar">&Aacute;rabe</option>
+                <option value="lang_hy">Armenio</option>
+                <option value="lang_be">Bielorruso</option>
+                <option value="lang_bg">B&uacute;lgaro</option>
+                <option value="lang_ca">Catal&aacute;n</option>
+                <option value="lang_cs">Checo</option>
+                <option value="lang_zh-CN">Chino (Simplificado)</option>
+                <option value="lang_zh-TW">Chino (Tradicional)</option>
+                <option value="lang_ko">Coreano</option>
+                <option value="lang_hr">Croata</option>
+                <option value="lang_da">Dan&eacute;s</option>
+                <option value="lang_sk">Eslovaco</option>
+                <option value="lang_sl">Esloveno</option>
+                <option value="lang_es">Español</option>
+                <option value="lang_eo">Esperanto</option>
+                <option value="lang_et">Estonio</option>
+                <option value="lang_fi">Finland&eacute;s</option>
+                <option value="lang_fr">Franc&eacute;s</option>
+                <option value="lang_el">Griego</option>
+                <option value="lang_iw">Hebreo</option>
+                <option value="lang_hi">Hindi</option>
+                <option value="lang_nl">Holand&eacute;s</option>
+                <option value="lang_hu">H&uacute;ngaro</option>
+                <option value="lang_id">Indonesio</option>
+                <option value="lang_en">Ingl&eacute;s</option>
+                <option value="lang_is">Island&eacute;s</option>
+                <option value="lang_it">Italiano</option>
+                <option value="lang_ja">Japon&eacute;s</option>
+                <option value="lang_lv">Let&oacute;n</option>
+                <option value="lang_lt">Lituano</option>
+                <option value="lang_no">Noruego</option>
+                <option value="lang_fa">Persa</option>
+                <option value="lang_pl">Polaco</option>
+                <option value="lang_pt">Portugu&eacute;s</option>
+                <option value="lang_ro">Rumano</option>
+                <option value="lang_ru">Ruso</option>
+                <option value="lang_sr">Serbio</option>
+                <option value="lang_sw">Suajili</option>
+                <option value="lang_sv">Sueco</option>
+                <option value="lang_tl">Tagalo</option>
+                <option value="lang_th">Tailand&eacute;s</option>
+                <option value="lang_tr">Turco</option>
+                <option value="lang_uk">Ucraniano</option>
+                <option value="lang_vi">Vietnamita</option>
+              </select>
+            </div>
+            <div class="col">Regi&oacute;n
+                <select class="browser-default custom-select mb-3" id="cr">
+                  <option selected="selected" value="">cualquier regi&oacute;n</option>
+                  <option value="countryAF">Afganist&aacute;n</option>
+                  <option value="countryAL">Albania</option>
+                  <option value="countryDE">Alemania</option>
+                  <option value="countryAD">Andorra</option>
+                  <option value="countryAO">Angola</option>
+                  <option value="countryAI">Anguila</option>
+                  <option value="countryAQ">Ant&aacute;rtida</option>
+                  <option value="countryAG">Antigua y Barbuda</option>
+                  <option value="countrySA">Arabia Saud&iacute;</option>
+                  <option value="countryDZ">Argelia</option>
+                  <option value="countryAR">Argentina</option>
+                  <option value="countryAM">Armenia</option>
+                  <option value="countryAW">Aruba</option>
+                  <option value="countryAU">Australia</option>
+                  <option value="countryAT">Austria</option>
+                  <option value="countryAZ">Azerbaiy&aacute;n</option>
+                  <option value="countryBS">Bahamas</option>
+                  <option value="countryBD">Banglad&eacute;s</option>
+                  <option value="countryBB">Barbados</option>
+                  <option value="countryBH">Bar&eacute;in</option>
+                  <option value="countryBE">B&eacute;lgica</option>
+                  <option value="countryBZ">Belice</option>
+                  <option value="countryBJ">Ben&iacute;n</option>
+                  <option value="countryBM">Bermudas</option>
+                  <option value="countryBY">Bielorrusia</option>
+                  <option value="countryBO">Bolivia</option>
+                  <option value="countryBA">Bosnia-Herzegovina</option>
+                  <option value="countryBW">Botsuana</option>
+                  <option value="countryBR">Brasil</option>
+                  <option value="countryBN">Brun&eacute;i</option>
+                  <option value="countryBG">Bulgaria</option>
+                  <option value="countryBF">Burkina Faso</option>
+                  <option value="countryBI">Burundi</option>
+                  <option value="countryBT">But&aacute;n</option>
+                  <option value="countryCV">Cabo Verde</option>
+                  <option value="countryKH">Camboya</option>
+                  <option value="countryCM">Camer&oacute;n</option>
+                  <option value="countryCA">Canad&aacute;</option>
+                  <option value="countryQA">Catar</option>
+                  <option value="countryTD">Chad</option>
+                  <option value="countryCZ">Chequia</option>
+                  <option value="countryCL">Chile</option>
+                  <option value="countryCN">China</option>
+                  <option value="countryCY">Chipre</option>
+                  <option value="countryVA">Ciudad del Vaticano</option>
+                  <option value="countryCO">Colombia</option>
+                  <option value="countryKM">Comoras</option>
+                  <option value="countryKP">Corea del Norte</option>
+                  <option value="countryKR">Corea del Sur</option>
+                  <option value="countryCI">Costa de Marfil</option>
+                  <option value="countryCR">Costa Rica</option>
+                  <option value="countryHR">Croacia</option>
+                  <option value="countryCU">Cuba</option>
+                  <option value="countryDK">Dinamarca</option>
+                  <option value="countryDM">Dominica</option>
+                  <option value="countryEC">Ecuador</option>
+                  <option value="countryEG">Egipto</option>
+                  <option value="countrySV">El Salvador</option>
+                  <option value="countryAE">Emiratos &Aacute;rabes Unidos</option>
+                  <option value="countryER">Eritrea</option>
+                  <option value="countrySK">Eslovaquia</option>
+                  <option value="countrySI">Eslovenia</option>
+                  <option value="countryES">España</option>
+                  <option value="countryUS">Estados Unidos</option>
+                  <option value="countryEE">Estonia</option>
+                  <option value="countrySZ">Esuatini</option>
+                  <option value="countryET">Etiop&iacute;a</option>
+                  <option value="countryPH">Filipinas</option>
+                  <option value="countryFI">Finlandia</option>
+                  <option value="countryFJ">Fiyi</option>
+                  <option value="countryFR">Francia</option>
+                  <option value="countryGA">Gab&oacute;n</option>
+                  <option value="countryGM">Gambia</option>
+                  <option value="countryGE">Georgia</option>
+                  <option value="countryGH">Ghana</option>
+                  <option value="countryGI">Gibraltar</option>
+                  <option value="countryGD">Granada</option>
+                  <option value="countryGR">Grecia</option>
+                  <option value="countryGL">Groenlandia</option>
+                  <option value="countryGP">Guadalupe</option>
+                  <option value="countryGU">Guam</option>
+                  <option value="countryGT">Guatemala</option>
+                  <option value="countryGF">Guayana Francesa</option>
+                  <option value="countryGN">Guinea</option>
+                  <option value="countryGQ">Guinea Ecuatorial</option>
+                  <option value="countryGW">Guinea-Bis&aacute;u</option>
+                  <option value="countryGY">Guyana</option>
+                  <option value="countryHT">Hait&iacute;</option>
+                  <option value="countryHN">Honduras</option>
+                  <option value="countryHK">Hong Kong</option>
+                  <option value="countryHU">Hungr&iacute;a</option>
+                  <option value="countryIN">India</option>
+                  <option value="countryID">Indonesia</option>
+                  <option value="countryIQ">Irak</option>
+                  <option value="countryIR">Ir&aacute;n</option>
+                  <option value="countryIE">Irlanda</option>
+                  <option value="countryBV">Isla Bouvet</option>
+                  <option value="countryCX">Isla de Navidad</option>
+                  <option value="countryNF">Isla Norfolk</option>
+                  <option value="countryIS">Islandia</option>
+                  <option value="countryKY">Islas Caim&aacute;n</option>
+                  <option value="countryCC">Islas Cocos</option>
+                  <option value="countryCK">Islas Cook</option>
+                  <option value="countryFO">Islas Feroe</option>
+                  <option value="countryGS">Islas Georgia del Sur y Sandwich del Sur</option>
+                  <option value="countryHM">Islas Heard y McDonald</option>
+                  <option value="countryFK">Islas Malvinas (Islas Falkland)</option>
+                  <option value="countryMP">Islas Marianas del Norte</option>
+                  <option value="countryMH">Islas Marshall</option>
+                  <option value="countryPN">Islas Pitcairn</option>
+                  <option value="countrySB">Islas Salom&oacute;n</option>
+                  <option value="countryTC">Islas Turcas y Caicos</option>
+                  <option value="countryUM">Islas Ultramarinas de EE.UU.</option>
+                  <option value="countryVG">Islas V&iacute;rgenes Brit&aacute;nicas</option>
+                  <option value="countryVI">Islas V&iacute;rgenes de EE. UU.</option>
+                  <option value="countryIL">Israel</option>
+                  <option value="countryIT">Italia</option>
+                  <option value="countryJM">Jamaica</option>
+                  <option value="countryJP">Jap&oacute;n</option>
+                  <option value="countryJO">Jordania</option>
+                  <option value="countryKZ">Kazajist&aacute;n</option>
+                  <option value="countryKE">Kenia</option>
+                  <option value="countryKG">Kirguist&aacute;n</option>
+                  <option value="countryKI">Kiribati</option>
+                  <option value="countryKW">Kuwait</option>
+                  <option value="countryLA">Laos</option>
+                  <option value="countryLS">Lesoto</option>
+                  <option value="countryLV">Letonia</option>
+                  <option value="countryLB">L&iacute;bano</option>
+                  <option value="countryLR">Liberia</option>
+                  <option value="countryLY">Libia</option>
+                  <option value="countryLI">Liechtenstein</option>
+                  <option value="countryLT">Lituania</option>
+                  <option value="countryLU">Luxemburgo</option>
+                  <option value="countryMO">Macao</option>
+                  <option value="countryMK">Macedonia del Norte</option>
+                  <option value="countryMG">Madagascar</option>
+                  <option value="countryMY">Malasia</option>
+                  <option value="countryMW">Malaui</option>
+                  <option value="countryMV">Maldivas</option>
+                  <option value="countryML">Mali</option>
+                  <option value="countryMT">Malta</option>
+                  <option value="countryMA">Marruecos</option>
+                  <option value="countryMQ">Martinica</option>
+                  <option value="countryMU">Mauricio</option>
+                  <option value="countryMR">Mauritania</option>
+                  <option value="countryYT">Mayotte</option>
+                  <option value="countryMX">M&eacute;xico</option>
+                  <option value="countryFM">Micronesia</option>
+                  <option value="countryMD">Moldavia</option>
+                  <option value="countryMC">M&oacute;naco</option>
+                  <option value="countryMN">Mongolia</option>
+                  <option value="countryMS">Montserrat</option>
+                  <option value="countryMZ">Mozambique</option>
+                  <option value="countryMM">Myanmar (Birmania)</option>
+                  <option value="countryNA">Namibia</option>
+                  <option value="countryNR">Nauru</option>
+                  <option value="countryNP">Nepal</option>
+                  <option value="countryNI">Nicaragua</option>
+                  <option value="countryNE">N&iacute;ger</option>
+                  <option value="countryNG">Nigeria</option>
+                  <option value="countryNU">Niue</option>
+                  <option value="countryNO">Noruega</option>
+                  <option value="countryNC">Nueva Caledonia</option>
+                  <option value="countryNZ">Nueva Zelanda</option>
+                  <option value="countryOM">Om&oacute;n</option>
+                  <option value="countryNL">Pa&iacute;ses Bajos</option>
+                  <option value="countryPK">Pakist&aacute;n</option>
+                  <option value="countryPW">Palaos</option>
+                  <option value="countryPS">Palestina</option>
+                  <option value="countryPA">Panam&aacute;</option>
+                  <option value="countryPG">Pap&uacute;a Nueva Guinea</option>
+                  <option value="countryPY">Paraguay</option>
+                  <option value="countryPE">Per&eacute;</option>
+                  <option value="countryPF">Polinesia Francesa</option>
+                  <option value="countryPL">Polonia</option>
+                  <option value="countryPT">Portugal</option>
+                  <option value="countryPR">Puerto Rico</option>
+                  <option value="countryGB">Reino Unido</option>
+                  <option value="countryCF">Rep&uacute;blica Centroafricana</option>
+                  <option value="countryCG">Rep&uacute;blica del Congo</option>
+                  <option value="countryCD">Rep&uacute;blica Democr&aacute;tica del Congo</option>
+                  <option value="countryDO">Rep&uacute;blica Dominicana</option>
+                  <option value="countryRE">Reuni&oacute;n</option>
+                  <option value="countryRW">Ruanda</option>
+                  <option value="countryRO">Ruman&iacute;a</option>
+                  <option value="countryRU">Rusia</option>
+                  <option value="countryEH">S&aacute;hara Occidental</option>
+                  <option value="countryWS">Samoa</option>
+                  <option value="countryAS">Samoa Americana</option>
+                  <option value="countryKN">San Crist&oacute;bal y Nieves</option>
+                  <option value="countrySM">San Marino</option>
+                  <option value="countryPM">San Pedro y Miquel&oacute;n</option>
+                  <option value="countryVC">San Vicente y las Granadinas</option>
+                  <option value="countrySH">Santa Elena</option>
+                  <option value="countryLC">Santa Luc&iacute;a</option>
+                  <option value="countryST">Santo Tom&eacute; y Pr&iacute;ncipe</option>
+                  <option value="countrySN">Senegal</option>
+                  <option value="countryRS">Serbia</option>
+                  <option value="countrySC">Seychelles</option>
+                  <option value="countrySL">Sierra Leona</option>
+                  <option value="countrySG">Singapur</option>
+                  <option value="countrySY">Siria</option>
+                  <option value="countrySO">Somalia</option>
+                  <option value="countryLK">Sri Lanka</option>
+                  <option value="countryZA">Sud&aacute;frica</option>
+                  <option value="countrySD">Sud&aacute;n</option>
+                  <option value="countrySE">Suecia</option>
+                  <option value="countryCH">Suiza</option>
+                  <option value="countrySR">Surinam</option>
+                  <option value="countrySJ">Svalbard y Jan Mayen</option>
+                  <option value="countryTH">Tailandia</option>
+                  <option value="countryTW">Taiw&aacute;n</option>
+                  <option value="countryTZ">Tanzania</option>
+                  <option value="countryTJ">Tayikist&aacute;n</option>
+                  <option value="countryIO">Territorio Brit&aacute;nico del Oc&eacute;ano &Iacute;ndico</option>
+                  <option value="countryTF">Territorios Australes Franceses</option>
+                  <option value="countryTG">Togo</option>
+                  <option value="countryTK">Tokelau</option>
+                  <option value="countryTO">Tonga</option>
+                  <option value="countryTT">Trinidad y Tobago</option>
+                  <option value="countryTN">T&uacute;nez</option>
+                  <option value="countryTM">Turkmenist&aacute;n</option>
+                  <option value="countryTR">Turqu&iacute;a</option>
+                  <option value="countryTV">Tuvalu</option>
+                  <option value="countryUA">Ucrania</option>
+                  <option value="countryUG">Uganda</option>
+                  <option value="countryUY">Uruguay</option>
+                  <option value="countryUZ">Uzbekist&aacute;n</option>
+                  <option value="countryVU">Vanuatu</option>
+                  <option value="countryVE">Venezuela</option>
+                  <option value="countryVN">Vietnam</option>
+                  <option value="countryWF">Wallis y Futuna</option>
+                  <option value="countryYE">Yemen</option>
+                  <option value="countryDJ">Yibuti</option>
+                  <option value="countryZM">Zambia</option>
+                  <option value="countryZW">Zimbabue</option>
+              </select>
+            </div>
+
+            <div class="col">&Uacute;ltima actualizaci&oacute;n
+              <select class="browser-default custom-select mb-3" id="as_qdr">
+                <option selected="selected" value="all">en cualquier momento</option>
+                <option value="d">las &uacute;ltimas 24 horas</option>
+                <option value="w">la &uacute;ltima semana</option>
+                <option value="m">el &uacute;ltimo mes</option>
+                <option value="y">el &uacute;ltimo año</option> 
+              </select>
+            </div>
+          </div>
+
+          <!-- Sitio o dominio, terminos que aparecen, safe search-->
+          <div class="form-row mb-4">
+            <div class="col">
+              <input type="text" name="as_sitesearch" class="form-control" placeholder="Sitio o dominio">
+            </div>
+          </div>
+
+          <!-- terminos que aparecen, safe search, tipos de archivo, derechos de uso-->
+          <div class="form-row mb-4">
+            <div class="col">T&eacute;rminos que aparecen
+              <select class="browser-default custom-select mb-3" id="as_occt"> 
+                <option selected="selected" value="">En cualquier parte de la p&aacutegina</option>
+                <option value="title">En el t&iacutetulo de la p&aacutegina</option>
+                <option value="body">En el texto de la p&aacutegina</option>
+                <option value="url">En la URL de la p&aacutegina</option>
+                <option value="links">En v&iacutenculos que te dirijan a la p&aacutegina</option> 
+              </select>
+            </div>
+
+            <div class="col">SafeSarch
+              <select class="browser-default custom-select mb-3" id="safe"> 
+                <option selected="selected" value="images">Mostrar resultados expl&iacute;citos</option>
+                <option value="active">Ocultar resultados expl&iacute;citos</option> 
+              </select>
+            </div>
+
+            <div class="col">Tipo de archivo
+              <select class="browser-default custom-select mb-3" id="as_filetype"> 
+                <option selected="selected" value="">Sin tipo de Archivo</option>
+                <option value="pdf">Adobe Acrobat PDF (.pdf)</option> 
+                <option value="ps">Adobe Postscript (.ps)</option>
+                <option value="dwf">Autodesk DWF (.dwf)</option> 
+                <option value="bak,back">Backup File (.bak, .back)</option> 
+                <option value="bat">Batch File (.bat))</option>
+                <option value="bin">Binary File (.bin)</option>
+                <option value="sql">Database File (.sql)</option>
+                <option value="rtf">Formato de Texto Enriquecido (.rtf)</option>
+                <option value="kml">Google Earth KML (.kml)</option> 
+                <option value="kmz">Google Earth KMZ (.kmz)</option> 
+                <option value="ico">Graphic Icon File (.ico)</option>
+                <option value="hlp">Help File (.hlp)</option>
+                <option value="js">JavaScript (.js)</option>
+                <option value="log">Log File (.log)</option>
+                <option value="xls">Microsoft Excel (.xls)</option> 
+                <option value="ppt">Microsoft Powerpoint (.ppt)</option>
+                <option value="vbs">Microsoft Visual Basic Script File (.vbs)</option>
+                <option value="doc">Microsoft Word (.doc)</option> 
+                <option value="pl">Perl Script File (.pl)</option>
+                <option value="php">Php Script File (.php)</option>
+                <option value="uu">Script EncodingLog File (.uu)</option>
+                <option value="swf">Shockwave Flash (.swf)</option> 
+                <option value="ini">System Initialization file (.ini)</option>
+                <option value="gz">Unix Zip (.gz)</option>
+                <option value="tmp">Windows Tempory File (.tmp)</option>
+              </select>
+            </div>
+            <div class="col">Derecho de uso
+              <select class="browser-default custom-select mb-3" id="as_rights"> 
+                <option selected="selected" value="">P&aacute;ginas cuyo uso no requiera de licencias</option> 
+                <option value="'(cc_publicdomain|cc_attribute|cc_sharealike|cc_noncommercial|cc_nonderived)''">P&aacute;ginas que se puedan usar o compartir libremente</option> 
+                <option value="'(cc_publicdomain|cc_attribute|cc_sharealike|cc_nonderived).-(cc_noncommercial)''">P&aacute;ginas que se puedan usar o compartir libremente, aun con fines comerciales</option> 
+                <option value="'(cc_publicdomain|cc_attribute|cc_sharealike|cc_noncommercial).-(cc_nonderived)''">P&aacute;ginas que se puedan usar, compartir o modificar</option> 
+                <option value="'(cc_publicdomain|cc_attribute|cc_sharealike).-(cc_noncommercial|cc_nonderived)''">P&aacute;ginas que se puedan usar, compartir o modificar, aun con fines comerciales</option>   
+              </select>
+            </div>
+
+          </div>
+
+          <!-- Fin google advanced search -->
+          <hr>
+          <!-- Tiempo -->
+          <div class="form-row mb-4">
+            <div class="col">Tipolog&iacute;a
+              <select class="browser-default custom-select mb-3" id="tbm_tip"> 
+                <option selected="selected" value="">Cualquiera</option> 
+                <option value="app">Aplicaciones</option> 
+                <option value="bks">Libros</option> 
+                <option value="isch">Im&aacute;genes</option> 
+                <option value="nws">Noticias</option>
+                <option value="pts">Patentes</option> 
+                <option value="vid">V&iacute;deos</option>
+              </select>
+            </div>
+
+            <div class="col">Tiempo
+              <select class="browser-default custom-select mb-3" id="tbs_qdr"> 
+                <option selected="selected" value="tbs=qdr:a">Cualquier tiempo</option> 
+                <option value="qdr:s">&Uacute;ltimo segundo</option> 
+                <option value="qdr:n">&Uacute;ltimo minuto</option> 
+                <option value="qdr:N50">&Uacute;ltimos 50 minutos</option> 
+                <option value="qdr:h">&Uacute;ltima hora</option>
+                <option value="qdr:h12">&Uacute;ltima doce horas</option> 
+                <option value="qdr:d">&Uacute;ltimo d&iacute;a</option>
+                <option value="qdr:w">&Uacute;ltima semana</option>
+                <option value="qdr:M">&Uacute;ltimo m&eacute;s</option>
+                <option value="qdr:Y">&Uacute;ltimo año</option>
+                <option value="qdr:L">Ordenado por fecha</option>
+                <option value="qdr:O">Ordenado por relevancia</option>
+              </select>
+            </div>
+
+            <div class="col">Im&aacute;genes
+              <select class="browser-default custom-select mb-3" id="tbs_isz"> 
+                <option selected="selected" value="">Sin Im&aacute;genes</option>
+                <option value="isz:1">Im&aacute;genes tamaño grande</option> 
+                <option value="isz:l">Im&aacute;genes tamaño mediano</option> 
+                <option value="isz:ex,iszw:1000,iszh:1000">&aacute;genes mayores de 1000x1000</option> 
+                <option value="isz:lt,islt:4mp">Im&aacute;genes mayores de2272x1704</option>
+              </select>
+            </div>
+
+            <div class="col">Im&aacute;genes color
+              <select class="browser-default custom-select mb-3" id="tbs_ic">
+                <option selected="selected" value="">Sin Im&aacute;genes</option>
+                <option value="ic:gray">Im&aacute;genes blanco y negro</option> 
+                <option value="ic:color">Im&aacute;genes en color</option>
+              </select>
+            </div>
+
+            <div class="col">Im&aacute;genes Tipo
+              <select class="browser-default custom-select mb-3" id="tbs_itp">
+                <option selected="selected" value="">Sin Im&aacute;genes</option> 
+                <option value="itp:face">Im&aacute;genes tipo cara</option> 
+                <option value="itp:photo">Im&aacute;genes tipo foto</option>
+              </select>
+            </div>
+
+          </div>
+
+          <!-- Sign up button -->
+          <button class="btn btn-info my-4 btn-block" type="submit" onclick="validar_busqueda()">Enviar Consulta</button>
+      </form>
+      <!-- Fin formulario Busqueda Avanzada en Google -->
+    </div>
+
+    <!-- Comienzo del formulario Redes Sociales -->
+    <div class="tab-pane fade" id="pills-redes-sociales" role="tabpanel" aria-labelledby="pills-redes-sociales-tab">
+        <!-- Buscadores avanzados google -->
+        <div class="tab-content" id="pills-tabContent">
+            <!-- Comienzo del Formulario Redes Sociales -->
+            <form class="text-center border border-light p-5" name="redesSociales">
+              <p class="h4 mb-4">Redes Sociales</p>
+              <div class="form-row mb-4">
+                  <div class="col">
+                    <input type="text" autofocus="autofucs" name="texto" class="form-control" placeholder="Palabras a buscar">
+                  </div>
+
+                  <div class="col">
+                    <select class="browser-default custom-select mb-3" id="redes"> 
+                      <option selected="selected" value="todos">Todas las redes</option>
+                      <option value="site:facebook.com">Facebook</option>
+                      <option value="site:linkedin.com">Linkedin</option>
+                      <option value="site:instagram.com">Intagram</option>
+                      <option value="site:twitter.com">Twitter</option>
+                      <option value="site:pinterest.com">Pinterest</option>
+                      <option value="site:snapchat.com">Snapchat</option>
+                      <option value="site:tumblr.com">Tumblr</option>
+                      <option value="site:reddit.com">Reddit</option>
+                      <option value="site:4chan.com">4Chan</option>
+                      <option value="site:flickr.com">Flickr</option>
+                      <option value="site:youtube.com">Youtube</option>
+                      <option value="site:omegle.com">Omegle</option>
+                      <option value="site:wechat.com">WeChat</option>
+                      <option value="site:imqq.com">QQ</option>
+                      <option value="site:wechat.com">WeChat</option>
+                    </select>
+                  </div>
+              </div>
+              
+              <!-- Sign up button -->
+              <button class="btn btn-info my-4 btn-block" type="submit" onclick="validar_redes_sociales()">Enviar Consulta</button>
+            </form>
+            <!-- Fin formulario Busqueda Avanzada en Google -->
+        </div>
+    </div>
+
+    <!-- Comienzo del formulario Instagram -->
+    <div class="tab-pane fade" id="pills-instagram" role="tabpanel" aria-labelledby="pills-instagrams-tab">
+      <!-- Buscadores avanzados google -->
+      <div class="tab-content" id="pills-tabContent">
+          <!-- Comienzo del Formulario Instagram -->
+          <form class="text-center border border-light p-5" name="instagram">
+            <p class="h4 mb-4">Instagram</p>
+            <div class="form-row mb-4">
+                <div class="col">
+                  <input type="text" autofocus="autofucs" name="texto2" class="form-control" placeholder="#tags o @usuario">
+                </div>
+            </div>
+            
+            <!-- Sign up button -->
+            <button class="btn btn-info my-4 btn-block" type="submit" onclick="validar_instagram()">Enviar Consulta</button>
+          </form>
+          <!-- Fin formulario Busqueda Avanzada en Google -->
+      </div>
+    </div>
+
+    <!-- Fin formulario Bing Dorks -->
+    <div class="tab-pane fade" id="pills-bing-dorks" role="tabpanel" aria-labelledby="pills-bing-dorks-tab">
+      <!-- Comienzo del Formulario Bing Dorks -->
+      <form class="text-center border border-light p-5" name="bingDorks">
+        <p class="h4 mb-4">Bing Dorks</p>
+        <div class="form-row mb-4">
+            <div class="col">
+              <div class="form-group shadow-textarea">
+                <label for="Textarea1">Caja de Texto</label>
+                <textarea class="form-control z-depth-1" id="Textarea3" rows="7" placeholder="Escriba el contenido de busqueda"></textarea>
+              </div>
+            </div>
+          </div>
+          <div class="form-row mb-4">
+            <div class="col">
+                <button type="button" onclick="myFunctionBingDorks('-')" class="btn btn-light">- </button>
+                <button type="button" onclick="myFunctionBingDorks('filetype:')" class="btn btn-light">filetype: </button>
+                <button type="button" onclick="myFunctionBingDorks('contains:')" class="btn btn-light">contains: </button>
+                <button type="button" onclick="myFunctionBingDorks('site:')" class="btn btn-light">site: </button>
+                <button type="button" onclick="myFunctionBingDorks('loc:')" class="btn btn-light">loc: </button>
+                <button type="button" onclick="myFunctionBingDorks('intitle:')" class="btn btn-light">intitle: </button>
+                <button type="button" onclick="myFunctionBingDorks('inbody:')" class="btn btn-light">inbody: </button>
+                <button type="button" onclick="myFunctionBingDorks('inanchor:')" class="btn btn-light">inanchor: </button>
+                <button type="button" onclick="myFunctionBingDorks('feed:')" class="btn btn-light">feed: </button>
+                <button type="button" onclick="myFunctionBingDorks('findfromdomain:')" class="btn btn-light">findfromdomain: </button>
+                <button type="button" onclick="myFunctionBingDorks('ip:')" class="btn btn-light">ip: </button>
+            </div>
+          </div>
+        <!-- Sign up button -->
+        <button class="btn btn-info my-4 btn-block" type="submit" onclick="validar_bing_dork()">Enviar Consulta</button>
+      </form>
+      <!-- Fin formulario Contacto -->
+    </div>
+
+    <!-- Fin formulario Google Dorks -->
+    <div class="tab-pane fade" id="pills-google-dorks" role="tabpanel" aria-labelledby="pills-google-roks-tab">
+      <!-- Comienzo del Formulario Google Dorks -->
+      <form class="text-center border border-light p-5" name="googleDorks">
+        <p class="h4 mb-4">Google Dorks</p>
+        <div class="form-row mb-4">
+            <div class="col">
+              <div class="form-group shadow-textarea">
+                <label for="Textarea1">Caja de Texto</label>
+                <textarea class="form-control z-depth-1" id="Textarea2" rows="7" placeholder="Escriba el contenido de busqueda"></textarea>
+              </div>
+            </div>
+          </div>
+          <div class="form-row mb-4">
+            <div class="col">
+                <button type="button" onclick="myFunctionGoogleDorks('-')" class="btn btn-light">- </button>
+                <button type="button" onclick="myFunctionGoogleDorks('allintext:')" class="btn btn-light">allintext: </button>
+                <button type="button" onclick="myFunctionGoogleDorks('allinurl:')" class="btn btn-light">allinurl: </button>
+                <button type="button" onclick="myFunctionGoogleDorks('book:')" class="btn btn-light">book: </button>
+                <button type="button" onclick="myFunctionGoogleDorks('cache:')" class="btn btn-light">cache: </button>
+                <button type="button" onclick="myFunctionGoogleDorks('define:')" class="btn btn-light">define: </button>
+                <button type="button" onclick="myFunctionGoogleDorks('ext:')" class="btn btn-light">ext: </button>
+                <button type="button" onclick="myFunctionGoogleDorks('filetype:')" class="btn btn-light">filetype: </button>
+                <button type="button" onclick="myFunctionGoogleDorks('inanchor:')" class="btn btn-light">inanchor: </button>
+                <button type="button" onclick="myFunctionGoogleDorks('index of:')" class="btn btn-light">index of: </button>
+                <button type="button" onclick="myFunctionGoogleDorks('info:')" class="btn btn-light">info: </button>
+            </div>
+          </div>
+          <div class="form-row mb-4">
+            <div class="col">
+                <button type="button" onclick="myFunctionGoogleDorks('intext:')" class="btn btn-light">intext: </button>
+                <button type="button" onclick="myFunctionGoogleDorks('intitle:')" class="btn btn-light">intitle: </button>
+                <button type="button" onclick="myFunctionGoogleDorks('inurl:')" class="btn btn-light">inurl: </button>
+                <button type="button" onclick="myFunctionGoogleDorks('link:')" class="btn btn-light">link: </button>
+                <button type="button" onclick="myFunctionGoogleDorks('maps:')" class="btn btn-light">maps: </button>
+                <button type="button" onclick="myFunctionGoogleDorks('movie:')" class="btn btn-light">movie: </button>
+                <button type="button" onclick="myFunctionGoogleDorks('phonebook:')" class="btn btn-light">phonebook: </button>
+                <button type="button" onclick="myFunctionGoogleDorks('related:')" class="btn btn-light">related: </button>
+                <button type="button" onclick="myFunctionGoogleDorks('site:')" class="btn btn-light">site: </button>
+                <button type="button" onclick="myFunctionGoogleDorks('weather:')" class="btn btn-light">weather: </button>
+            </div>
+        </div>
+        <!-- Sign up button -->
+        <button class="btn btn-info my-4 btn-block" type="submit" onclick="validar_google_dork()">Enviar Consulta</button>
+      </form>
+      <!-- Fin formulario Contacto -->
+    </div>
+
+    <!-- Fin formulario Bing Dorks -->
+    <div class="tab-pane fade" id="pills-bing-dorks" role="tabpanel" aria-labelledby="pills-bing-dorks-tab">
+      <!-- Comienzo del Formulario Bing Dorks -->
+      <form class="text-center border border-light p-5" name="bingDorks">
+        <p class="h4 mb-4">Bing Dorks</p>
+        <div class="form-row mb-4">
+            <div class="col">
+              <div class="form-group shadow-textarea">
+                <label for="Textarea1">Caja de Texto</label>
+                <textarea class="form-control z-depth-1" id="Textarea3" rows="7" placeholder="Escriba el contenido de busqueda"></textarea>
+              </div>
+            </div>
+          </div>
+          <div class="form-row mb-4">
+            <div class="col">
+                <button type="button" onclick="myFunctionBingDorks('-')" class="btn btn-light">- </button>
+                <button type="button" onclick="myFunctionBingDorks('filetype:')" class="btn btn-light">filetype: </button>
+                <button type="button" onclick="myFunctionBingDorks('contains:')" class="btn btn-light">contains: </button>
+                <button type="button" onclick="myFunctionBingDorks('site:')" class="btn btn-light">site: </button>
+                <button type="button" onclick="myFunctionBingDorks('loc:')" class="btn btn-light">loc: </button>
+                <button type="button" onclick="myFunctionBingDorks('intitle:')" class="btn btn-light">intitle: </button>
+                <button type="button" onclick="myFunctionBingDorks('inbody:')" class="btn btn-light">inbody: </button>
+                <button type="button" onclick="myFunctionBingDorks('inanchor:')" class="btn btn-light">inanchor: </button>
+                <button type="button" onclick="myFunctionBingDorks('feed:')" class="btn btn-light">feed: </button>
+                <button type="button" onclick="myFunctionBingDorks('findfromdomain:')" class="btn btn-light">findfromdomain: </button>
+                <button type="button" onclick="myFunctionBingDorks('ip:')" class="btn btn-light">ip: </button>
+            </div>
+          </div>
+        <!-- Sign up button -->
+        <button class="btn btn-info my-4 btn-block" type="submit" onclick="validar_bing_dork()">Enviar Consulta</button>
+      </form>
+      <!-- Fin formulario Contacto -->
+    </div>
+
+    <!-- Fin formulario Twitter Dorks -->
+    <div class="tab-pane fade" id="pills-twitter-dorks" role="tabpanel" aria-labelledby="pills-twitter-dorks-tab">
+      <!-- Comienzo del Formulario Bing Dorks -->
+      <form class="text-center border border-light p-5" name="twitterDorks">
+        <p class="h4 mb-4">Twitter Dorks</p>
+        <div class="form-row mb-4">
+            <div class="col">
+              <div class="form-group shadow-textarea">
+                <label for="Textarea1">Caja de Texto</label>
+                <textarea class="form-control z-depth-1" id="Textarea4" rows="7" placeholder="Escriba el contenido de busqueda"></textarea>
+              </div>
+            </div>
+          </div>
+          <div class="form-row mb-4">
+            <div class="col">
+                <button type="button" onclick="myFunctionTwitterDorks('geocode:')" class="btn btn-light">geocode</button>
+                <button type="button" onclick="myFunctionTwitterDorks('near:')" class="btn btn-light">near:</button>
+                <button type="button" onclick="myFunctionTwitterDorks('@')" class="btn btn-light">@</button>
+                <button type="button" onclick="myFunctionTwitterDorks('+@')" class="btn btn-light">+@</button>
+                <button type="button" onclick="myFunctionTwitterDorks('to:')" class="btn btn-light">to:</button>
+                <button type="button" onclick="myFunctionTwitterDorks('from:')" class="btn btn-light">from:</button>
+                <button type="button" onclick="myFunctionTwitterDorks('#')" class="btn btn-light">#</button>
+                <button type="button" onclick="myFunctionTwitterDorks('since:')" class="btn btn-light">since:</button>
+                <button type="button" onclick="myFunctionTwitterDorks('until:')" class="btn btn-light">until:</button>
+            </div>
+          </div>
+        <!-- Sign up button -->
+        <button class="btn btn-info my-4 btn-block" type="submit" onclick="validar_twitter_dork()">Enviar Consulta</button>
+      </form>
+      <!-- Fin formulario Contacto -->
+    </div>
+
+  </div>
+<!--
+  <center>
+    -->
+    <!-- Social register
+    <p>Nos podes seguir en las siguientes redes sociales</p>
+    <a href="#" class="mx-2" role="button"><i class="fab fa-facebook-f light-blue-text"></i></a>
+    <a href="#" class="mx-2" role="button"><i class="fab fa-twitter light-blue-text"></i></a>
+    <a href="#" class="mx-2" role="button"><i class="fab fa-linkedin-in light-blue-text"></i></a>
+    <a href="#" class="mx-2" role="button"><i class="fab fa-github light-blue-text"></i></a>
+    
+    <hr>
+     
+    <p>GIIS - Grupo 8-->
+  <!--    </center>
+-->
+  <!-- Fin del Proyecto -->
+
+    
+  <!-- jQuery -->
+  <script type="text/javascript" src="static/js/jquery.min.js"></script>
+
+  <!-- Bootstrap tooltips (drop down) -->
+  <script type="text/javascript" src="static/js/popper.min.js"></script>
+
+  <!-- Bootstrap core JavaScript -->
+  <script type="text/javascript" src="static/js/bootstrap.min.js"></script>
+
+  <!-- MDB core JavaScript -->
+  <script type="text/javascript" src="static/js/mdb.min.js"></script>
+
+  <!-- Your custom scripts (optional) -->
+  <script type="text/javascript" src="static/js/validar_buscador.js"></script>
+
+  <script>
+    function myFunctionGooglegDorks(valor) {
+      document.getElementById("Textarea2").value = document.getElementById("Textarea2").value+valor;
+      document.getElementById("Textarea2").focus();
+    }
+
+    function myFunctionBingDorks(valor) {
+      document.getElementById("Textarea3").value = document.getElementById("Textarea3").value+valor;
+      document.getElementById("Textarea3").focus();
+    }
+
+    function myFunctionTwitterDorks(valor) {
+      document.getElementById("Textarea4").value = document.getElementById("Textarea4").value+valor;
+      document.getElementById("Textarea4").focus();
+    }
+  </script>
+</body>
+</html>
