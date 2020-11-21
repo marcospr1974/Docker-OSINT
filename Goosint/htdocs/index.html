@@ -605,40 +605,6 @@
       </div>
     </div>
 
-    <!-- Fin formulario Bing Dorks -->
-    <div class="tab-pane fade" id="pills-bing-dorks" role="tabpanel" aria-labelledby="pills-bing-dorks-tab">
-      <!-- Comienzo del Formulario Bing Dorks -->
-      <form class="text-center border border-light p-5" name="bingDorks">
-        <p class="h4 mb-4">Bing Dorks</p>
-        <div class="form-row mb-4">
-            <div class="col">
-              <div class="form-group shadow-textarea">
-                <label for="Textarea1">Caja de Texto</label>
-                <textarea class="form-control z-depth-1" id="Textarea3" rows="7" placeholder="Escriba el contenido de busqueda"></textarea>
-              </div>
-            </div>
-          </div>
-          <div class="form-row mb-4">
-            <div class="col">
-                <button type="button" onclick="myFunctionBingDorks('-')" class="btn btn-light">- </button>
-                <button type="button" onclick="myFunctionBingDorks('filetype:')" class="btn btn-light">filetype: </button>
-                <button type="button" onclick="myFunctionBingDorks('contains:')" class="btn btn-light">contains: </button>
-                <button type="button" onclick="myFunctionBingDorks('site:')" class="btn btn-light">site: </button>
-                <button type="button" onclick="myFunctionBingDorks('loc:')" class="btn btn-light">loc: </button>
-                <button type="button" onclick="myFunctionBingDorks('intitle:')" class="btn btn-light">intitle: </button>
-                <button type="button" onclick="myFunctionBingDorks('inbody:')" class="btn btn-light">inbody: </button>
-                <button type="button" onclick="myFunctionBingDorks('inanchor:')" class="btn btn-light">inanchor: </button>
-                <button type="button" onclick="myFunctionBingDorks('feed:')" class="btn btn-light">feed: </button>
-                <button type="button" onclick="myFunctionBingDorks('findfromdomain:')" class="btn btn-light">findfromdomain: </button>
-                <button type="button" onclick="myFunctionBingDorks('ip:')" class="btn btn-light">ip: </button>
-            </div>
-          </div>
-        <!-- Sign up button -->
-        <button class="btn btn-info my-4 btn-block" type="submit" onclick="validar_bing_dork()">Enviar Consulta</button>
-      </form>
-      <!-- Fin formulario Contacto -->
-    </div>
-
     <!-- Fin formulario Google Dorks -->
     <div class="tab-pane fade" id="pills-google-dorks" role="tabpanel" aria-labelledby="pills-google-roks-tab">
       <!-- Comienzo del Formulario Google Dorks -->
@@ -729,7 +695,7 @@
         <div class="form-row mb-4">
             <div class="col">
               <div class="form-group shadow-textarea">
-                <label for="Textarea1">Caja de Texto</label>
+                <label for="Textarea4">Caja de Texto</label>
                 <textarea class="form-control z-depth-1" id="Textarea4" rows="7" placeholder="Escriba el contenido de busqueda"></textarea>
               </div>
             </div>
@@ -788,7 +754,7 @@
   <script type="text/javascript" src="static/js/validar_buscador.js"></script>
 
   <script>
-    function myFunctionGooglegDorks(valor) {
+    function myFunctionGoogleDorks(valor) {
       document.getElementById("Textarea2").value = document.getElementById("Textarea2").value+valor;
       document.getElementById("Textarea2").focus();
     }

@@ -171,7 +171,7 @@ function validar_redes_sociales(){
 		//busqueda=busqueda+" site:imqq.com)"
 	}
 	else {
-		busqueda=busqueda+" site:"+ redes
+		busqueda=busqueda+" "+redes
 	}
 	
 	alert(busqueda)
