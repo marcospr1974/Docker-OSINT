@@ -1,0 +1,60 @@
+version: '3.4'
+
+services:
+   ghiro:
+      build: .
+      image: ghiro:0.2.1
+      hostname: ghiro
+      container_name: ghiro
+      #      environment:
+          #GHIRO_USER: ghiro
+          #GHIRO_PASSWORD: ghiromanager
+
+         #         APACHE_PID_FILE: /var/run/apache2/apache2.pid
+         #APACHE_RUN_USER: www-data
+         #APACHE_RUN_GROUP: www-data
+         #APACHE_LOG_DIR: /var/log/apache2
+         #APACHE_RUN_DIR: /var/run/apache2
+         #APACHE_LOCK_DIR: /var/lock/apache2
+
+         #          NAME: 'ghiro'
+         # USER: 'root'
+         # PASSWORD: 'ghiromanager'
+         # HOST: 'ghiro-mariadb'
+         # PORT: '3306'
+
+         #MONGO_URI: mongodb://ghiro-mongodb/
+         # MONGO_DB: ghirodb
+      depends_on:
+         - ghiro-mongodb
+         - ghiro-mariadb
+      ports:
+         - 81:80
+      restart: always
+
+   ghiro-mariadb:
+      image: mariadb
+      hostname: ghiro-mariadb
+      container_name: ghiro-mariadb
+      environment:
+         MYSQL_ROOT_PASSWORD: ghiromanager
+         MYSQL_USER: ghiro
+         MYSQL_PASSWORD: ghiromanager
+         MYSQL_DATABASE: ghiro
+      volumes:
+         - $PWD/db:/var/lib/mysql
+      ports:
+         - 3306:3306
+      restart: always
+
+   ghiro-mongodb:
+      image: mongo:latest
+      #image: mongo:3.2
+      hostname: ghiro-mongodb
+      container_name: ghiro-mongodb
+      volumes:
+         - $PWD/mongodb:/data/db
+         - $PWD/config/mongod.conf:/etc/mongod.conf
+      ports:
+         - 27017:27017
+      restart: always
