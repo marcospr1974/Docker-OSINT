@@ -44,9 +44,6 @@ ADD config/local_settings.py /opt/ghiro/ghiro/local_settings.py
 # Create super user.
 RUN cd /opt/ghiro && python manage.py syncdb --noinput 
     
-#RUN echo "from users.models import Profile; Profile.objects.create_superuser('$GHIRO_USER', 'yourmail@example.com', '$GHIRO_PASSWORD')" > /root/salida \
-#  && cat /root/salida  | python manage.py shell
-
 RUN cd /opt/ghiro && echo "from users.models import Profile; Profile.objects.create_superuser('$GHIRO_USER', 'yourmail@example.com', '$GHIRO_PASSWORD')"  | python manage.py shell
 
 # Clean-up

@@ -1,0 +1,19 @@
+version: '3.4'
+
+services:
+
+   ghiro:
+      build: 
+        context: .
+        network: ghiro_default
+      image: ghiro:0.2.1
+      hostname: ghiro
+      container_name: ghiro
+      ports:
+         - 81:80
+      restart: always
+
+networks:
+    default:
+        external:
+            name: ghiro_default
