@@ -3,6 +3,440 @@
   {
     "children": [
       {
+
+        "children": [
+          {
+            "name": "Oracle VirtualBox - GNU/Linux, Windows, OSX",
+            "type": "url",
+            "url": "https://www.virtualbox.org"
+          },
+          {
+            "name": "VMware - GNU/Linux, Windows, Mac",
+            "type": "url",
+            "url": "https://my.vmware.com/en/web/vmware/downloads/#all_products"
+          },     
+          {
+            "name": "Hyper-V - Windows",
+            "type": "url",
+            "url": "https://docs.microsoft.com/en-us/virtualization/hyper-v-on-windows/about/"
+          },
+          {
+            "name": "KVM - GNU/Linux",
+            "type": "url",
+            "url": "https://www.linux-kvm.org/page/Main_Page"
+          }, 
+          {
+            "name": "Proxmox",
+            "type": "url",
+            "url": "https://proxmox.com/en/"
+          },                  
+          {
+            "name": "Comparación de plataforma de virtualización",
+            "type": "url",
+            "url": "https://en.wikipedia.org/wiki/Comparison_of_platform_virtualization_software"
+          }
+        ],
+        "name": "Software de Virtualizacion",
+        "type": "folder"
+      }, 
+      
+      {
+      "children": [
+        {
+          "name": "Buscador Investigate Operating System",
+          "type": "url",
+          "url": "https://inteltechniques.com/buscador/"
+        },
+        {
+          "name": "Windows VM - Download Testing Microsoft Machine",
+          "type": "url",
+          "url": "https://developer.microsoft.com/es-es/windows/downloads/virtual-machines/"
+        },     
+        {
+          "name": "SADD.IO - 15 Minutos Libre VM + TOR",
+          "type": "url",
+          "url": "https://sadd.io/"
+        },
+        {
+          "name": "Osintux - Distro GNU/Linux",
+          "type": "url",
+          "url": "http://www.osintux.org/e"
+        }, 
+        {
+          "name": "Huron - Distro GNU/Linux",
+          "type": "url",
+          "url": "https://github.com/HuronOsint/OsintDistro"
+        },                  
+        {
+          "name": "Sift SANS Forensics VM",
+          "type": "url",
+          "url": "https://digital-forensics.sans.org/community/downloads/#overview"
+        },
+        {
+          "name": "Cain Live - Distro GNU/Linux",
+          "type": "url",
+          "url": "https://www.caine-live.net/"
+        },
+        {
+          "name": "Tsurugi Live - Distro GNU/Linux",
+          "type": "url",
+          "url": "https://tsurugi-linux.org/"
+        }
+      ],
+      "name": "Sistemas Operativos y Desktop de Virtualizacion",
+      "type": "folder"
+      },      
+
+      {
+      "children": [
+        {
+          "name": "Whonix - Distro GNU/Linux Incluye TOR",
+          "type": "url",
+          "url": "https://www.whonix.org/"
+        },
+        {
+          "name": "Subgraph OS Incluye TOR",
+          "type": "url",
+          "url": "https://subgraph.com/"
+        },     
+        {
+          "name": "Tails Distro GNU/Linux Incluye TOR",
+          "type": "url",
+          "url": "https://tails.boum.org/"
+        },
+        {
+          "name": "QubesOS - Distro GNU/Linux",
+          "type": "url",
+          "url": "https://www.qubes-os.org/"
+        }, 
+        {
+          "name": "Ipredia - Distro GNU/Linux Uses I2P Instead de Tor",
+          "type": "url",
+          "url": "https://www.ipredia.org/os/o"
+        },                  
+        {
+          "name": "Kali Linux - Distro GNU/Linux",
+          "type": "url",
+          "url": "https://www.kali.org/"
+        },
+        {
+          "name": "Tsurugi Live - Distro GNU/Linux",
+          "type": "url",
+          "url": "https://tsurugi-linux.org/"
+        },
+        {
+          "name": "Discreete Live - Distro GNU/Linux",
+          "type": "url",
+          "url": "https://www.discreete-linux.org/features.html"
+        }
+      ],
+      "name": "Privacidad",
+      "type": "folder"
+      },
+
+      {
+        "children": [
+          {
+            "name": "Whonix - Distro GNU/Linux",
+            "type": "url",
+            "url": "https://www.whonix.org/"
+          },
+          {
+            "name": "Tor Connection",
+            "type": "url",
+            "url": "https://www.torproject.org/"
+          },     
+          {
+            "name": "VPN Gates",
+            "type": "url",
+            "url": "https://www.vpngate.net/en/"
+          }, 
+          {
+            "name": "PrivacyTools",
+            "type": "url",
+            "url": "https://www.privacytools.io/"
+          },
+          {
+            "name": "I2P Anonymous Network",
+            "type": "url",
+            "url": "https://geti2p.net/en/"
+          },
+          {
+            "name": "Freenet",
+            "type": "url",
+            "url": "https://freenetproject.org/author/freenet-project-inc.html "
+          },
+          {
+            "name": "OpenVPN",
+            "type": "url",
+            "url": "https://openvpn.net/"
+          },
+          {
+            "name": "ProxyDB",
+            "type": "url",
+            "url": "http://proxydb.net/"
+          }
+        ],
+        "name": "Conexiones Anonimato",
+        "type": "folder"
+      },
+
+      {
+        "children": [
+          {
+            "name": "Cherrytree - Info Managment",
+            "type": "url",
+            "url": "https://www.giuspen.com/cherrytree/"
+          },
+          {
+            "name": "One 2016 - Digital note taking app",
+            "type": "url",
+            "url": "https://www.microsoft.com/en-sg/microsoft-365/onenote/digital-note-taking-app?irgwc=1&clickid=wwIyQizCZxyLWO-wUx0Mo3IWUkE1Vyz2EWvG1c0&OCID=AID2000143_AFF_10078_3327_start.me_243952&WT.mc_id=AID2000143_AFF_10078_3327_start.me_243952&OWTGT=AFF_10078"
+          },     
+          {
+            "name": "VIS. Visual Investigative Scenarios Platform",
+            "type": "url",
+            "url": "https://vis.occrp.org/"
+          }, 
+          {
+            "name": "Timeline Editor",
+            "type": "url",
+            "url": "https://time.graphics/editor"
+          },
+          {
+            "name": "PortableApps.com - Windows",
+            "type": "url",
+            "url": "https://portableapps.com/"
+          },
+          {
+            "name": "ScribbleMaps",
+            "type": "url",
+            "url": "https://www.scribblemaps.com/"
+          }
+        ],
+        "name": "Visualización del Escenario de la Investigación",
+        "type": "folder"
+      },
+     
+      {
+        "children": [
+          {
+            "name": "Adblock Plus (Chrome)",
+            "type": "url",
+            "url": "https://chrome.google.com/webstore/detail/adblock-plus-free-ad-bloc/cfhdojbkjhnklbpkdaibdccddilifddb"
+          },
+          {
+            "name": "Ghostey Privacy Ad Blocker (Chrome)",
+            "type": "url",
+            "url": "https://chrome.google.com/webstore/detail/ghostery-%E2%80%93-privacy-ad-blo/mlomiejdfkolichcflejclcbmpeaniij?hl=en"
+          },     
+          {
+            "name": "Ghostey Privacy Ad Blocker (FireFox)",
+            "type": "url",
+            "url": "https://addons.mozilla.org/en-US/firefox/addon/ghostery/"
+          }, 
+          {
+            "name": "Go Back in Time (Chrome)",
+            "type": "url",
+            "url": "https://chrome.google.com/webstore/detail/go-back-in-time/hgdahcpipmgehmaaankiglanlgljlakj"
+          },
+          {
+            "name": "HTTPS Everywhere (FireFox)",
+            "type": "url",
+            "url": "https://addons.mozilla.org/en-US/firefox/addon/https-everywhere/"
+          },
+          {
+            "name": "Hoxx VPN Proxy (Chrome)",
+            "type": "url",
+            "url": "https://chrome.google.com/webstore/detail/hoxx-vpn-proxy/nbcojefnccbanplpoffopkoepjmhgdgh"
+          },
+          {
+            "name": "Hoxx VPN Proxy (FireFox)",
+            "type": "url",
+            "url": "https://addons.mozilla.org/en-US/firefox/addon/hoxx-vpn-proxy/"
+          },
+          {
+            "name": "Nimbus Screenshot & Screen Video Record (Chrome)",
+            "type": "url",
+            "url": "https://chrome.google.com/webstore/detail/nimbus-screenshot-screen/bpconcjcammlapcogcnnelfmaeghhagj?hl=en"
+          },
+          {
+            "name": "Nimbus Screenshot & Screen Video Record (FireFox)",
+            "type": "url",
+            "url": "https://addons.mozilla.org/en-US/firefox/addon/nimbus-screenshot/"
+          },
+          {
+            "name": "Privacy Badger (Chrome)",
+            "type": "url",
+            "url": "https://chrome.google.com/webstore/detail/privacy-badger/pkehgijcmpdhfbdbbnkijodmdjhbjlgp"
+          },
+          {
+            "name": "Privacy Badger (FireFox)",
+            "type": "url",
+            "url": "https://addons.mozilla.org/en-US/firefox/addon/privacy-badger17/"
+          },
+          {
+            "name": "Refere Button (Chrome)",
+            "type": "url",
+            "url": "https://chrome.google.com/webstore/detail/referer-control/hnkcfpcejkafcihlgbojoidoihckciin?hl=en/"
+          },
+          {
+            "name": "Resurrect Page (FireFox)",
+            "type": "url",
+            "url": "https://addons.mozilla.org/en-US/firefox/addon/resurrect-pages/"
+          },
+          {
+            "name": "User-Agent Switcher for Chorme",
+            "type": "url",
+            "url": "https://chrome.google.com/webstore/detail/user-agent-switcher-for-c/djflhoibgkdhkhhcedjiklpkjnoahfmg"
+          },
+          {
+            "name": "Mailvelope PGP for Chorme,Firefox,Brave,etc",
+            "type": "url",
+            "url": "https://www.mailvelope.com/en/"
+          },
+          {
+            "name": "Exif Viewer (Firefox)",
+            "type": "url",
+            "url": "https://addons.mozilla.org/en-US/firefox/addon/exif-viewer/"
+          },
+          {
+            "name": "Exif Viewer (Chrome)",
+            "type": "url",
+            "url": "https://chrome.google.com/webstore/detail/exif-viewer-classic/nafpfdcmppffipmhcpkbplhkoiekndck?hl=en/"
+          },
+          {
+            "name": "Video verification InVid (Firefox y Chrome)",
+            "type": "url",
+            "url": "https://www.invid-project.eu/tools-and-services/invid-verification-plugin/"
+          },
+          {
+            "name": "Who Stole My Picture? (FireFox)",
+            "type": "url",
+            "url": "https://addons.mozilla.org/en-US/firefox/addon/who-stole-my-pictures/"
+          },
+          {
+            "name": "Download Instagram (Chrome)",
+            "type": "url",
+            "url": "https://chrome.google.com/webstore/detail/downloader-for-instagram/olkpikmlhoaojbbmmpejnimiglejmboe"
+          },
+          {
+            "name": "Count Likes/Comments - Helper 4 Instagram (Chrome)",
+            "type": "url",
+            "url": "https://chrome.google.com/webstore/detail/count-likescomments-helpe/afgobdehdiaoeelfmoconopdjclljgfh"
+          },
+          {
+            "name": "Data Scraper - Easy Web Scraping (Chrome)",
+            "type": "url",
+            "url": "https://chrome.google.com/webstore/detail/data-scraper-easy-web-scr/nndknepjnldbdbepjfgmncbggmopgden"
+          }
+        ],
+        "name": "Extensiones/Addons - Privacidad/Seguridad",
+        "type": "folder"
+      },
+
+      {
+        "children": [
+          {
+            "name": "Bit.do",
+            "type": "url",
+            "url": "https://bit.do/"
+          },
+          {
+            "name": "Bit.ly",
+            "type": "url",
+            "url": "https://bitly.com/"
+          },     
+          {
+            "name": "Unshorten.it",
+            "type": "url",
+            "url": "https://unshorten.it/"
+          },
+          {
+            "name": "Unshorten.link",
+            "type": "url",
+            "url": "https://unshorten.link/"
+          },
+          {
+            "name": "CheckShortURL",
+            "type": "url",
+            "url": "http://checkshorturl.com/"
+          },
+          {
+            "name": "Grabify IP Logger",
+            "type": "url",
+            "url": "https://grabify.link/"
+          },
+          {
+            "name": "Timeline Editor",
+            "type": "url",
+            "url": "https://time.graphics/editor"
+          },
+          {
+            "name": "PortableApps.com - Windows",
+            "type": "url",
+            "url": "https://portableapps.com/"
+          },
+          {
+            "name": "ScribbleMaps",
+            "type": "url",
+            "url": "https://www.scribblemaps.com/"
+          }
+        ],
+        "name": "URL Shortners",
+        "type": "folder"
+      },
+
+      {
+        "children": [
+          {
+            "name": "Fake Name Generator",
+            "type": "url",
+            "url": "https://www.fakenamegenerator.com/"
+          },
+          {
+            "name": "Face Merging",
+            "type": "url",
+            "url": "https://www.faceplusplus.com/face-merging/"
+          }
+        ],
+        "name": "Crear Identificación Falsa",
+        "type": "folder"
+      },
+
+      {
+        "children": [
+          {
+            "name": "GenyMotion - Emulador Android",
+            "type": "url",
+            "url": "https://www.genymotion.com/"
+          },
+          {
+            "name": "BlueStacks - Emulador Android",
+            "type": "url",
+            "url": "https://www.bluestacks.com/es/index.html"
+          },     
+          {
+            "name": "AndyRoid - Emulador Android",
+            "type": "url",
+            "url": "https://www.andyroid.net/"
+          },
+          {
+            "name": "MEmu - Emulador Android",
+            "type": "url",
+            "url": "https://www.memuplay.com/"
+          }, 
+          {
+            "name": "BigNox - Emulador Android",
+            "type": "url",
+            "url": "https://www.bignox.com/"
+          }
+        ],
+        "name": "Virtualizador Dispositivos Moviles",
+        "type": "folder"
+        },
+
+      {
         "children": [
           {  
             "children": [
@@ -675,22 +1109,27 @@
           {
             "name": "Google",
             "type": "url",
-            "url": "https://www.google.com"     
+            "url": "https://www.google.com.ar/imghp?hl=es&ogbl"     
           },
           {
             "name": "Bing",
             "type": "url",
-            "url": "https://www.bing.com"     
+            "url": "https://www.bing.com/visualsearch"     
           },
           {
             "name": "Yandex",
             "type": "url",
-            "url": "https://www.yandex.com"     
+            "url": "https://yandex.com/images/"     
           },
           {
             "name": "TinEye",
             "type": "url",
             "url": "https://tineye.com/"     
+          },
+          {
+            "name": "Extension TinEye (Chrome, Firefox, Opera)",
+            "type": "url",
+            "url": "https://tineye.com/extensions"     
           },
           {
             "name": "PimEyes",
@@ -701,13 +1140,265 @@
             "name": "Metapicz",
             "type": "url",
             "url": "http://metapicz.com/#landing"     
+          },
+          {
+            "name": "RevEye Reverse Image Search (Extension Firefox)",
+            "type": "url",
+            "url": "https://addons.mozilla.org/es/firefox/addon/reveye-ris/"     
+          },
+          {
+            "name": "RevEye Reverse Image Search (Extension Chrome, Brave)",
+            "type": "url",
+            "url": "https://chrome.google.com/webstore/detail/reveye-reverse-image-sear/keaaclcjhehbbapnphnmpiklalfhelgf"     
+          },
+          {
+            "name": "RevEye Reverse Image Search (Extension Chrome, Brave)",
+            "type": "url",
+            "url": "https://chrome.google.com/webstore/detail/reveye-reverse-image-sear/keaaclcjhehbbapnphnmpiklalfhelgf"     
+          },
+          {
+            "name": "InVID Verification Plugin (Extension Firefox, Chrome, Brave)",
+            "type": "url",
+            "url": "https://www.invid-project.eu/tools-and-services/invid-verification-plugin/"     
+          },
+          {
+            "name": "ExifTool (Herramienta)",
+            "type": "url",
+            "url": "https://exiftool.org/"     
+          },
+          {
+            "name": "File Extension",
+            "type": "url",
+            "url": "https://www.file-extensions.org/"     
+          },
+          {
+            "name": "Foca (Herramienta)",
+            "type": "url",
+            "url": "https://www.elevenpaths.com/innovation-labs/tools/foca"     
+          },
+          {
+            "name": "Forensically",
+            "type": "url",
+            "url": "https://29a.ch/photo-forensics/#level-sweep"     
+          },
+          {
+            "name": "ImageIdentify",
+            "type": "url",
+            "url": "https://www.imageidentify.com/"     
+          },
+          {
+            "name": "Lziru.com",
+            "type": "url",
+            "url": "http://fourandsix.com/"     
+          },
+          {
+            "name": "Online Convert",
+            "type": "url",
+            "url": "https://www.online-convert.com/"     
+          },
+          {
+            "name": "PDF Redact Tools (Herramienta)",
+            "type": "url",
+            "url": "https://github.com/firstlookmedia/pdf-redact-tools"     
+          },
+          {
+            "name": "Remove Background",
+            "type": "url",
+            "url": "https://www.remove.bg/"     
+          },
+          {
+            "name": "SunEarthTools.com (posición del sol, etc)",
+            "type": "url",
+            "url": "https://www.sunearthtools.com/es/index.php"     
+          },
+          {
+            "name": "SunCalc (posición del sol)",
+            "type": "url",
+            "url": "http://suncalc.net"     
+          },
+          {
+            "name": "Text Compare",
+            "type": "url",
+            "url": "https://text-compare.com/"     
           }
-
 
 
 
         ],
         "name": "Imágenes Reversa",
+        "type": "folder"
+      },
+
+      {
+        "children": [
+          {
+            "name": "Jeffrey's Image Metadata Viewer",
+            "type": "url",
+            "url": "http://exif.regex.info/exif.cgi"     
+          },
+          {
+            "name": "Exif Data Viewer",
+            "type": "url",
+            "url": "https://www.exifdata.com/"     
+          },
+          {
+            "name": "MetaData",
+            "type": "url",
+            "url": "https://www.metadata2go.com/"     
+          },
+          {
+            "name": "InVID Verification Plugin (Extension Firefox, Chrome, Brave)",
+            "type": "url",
+            "url": "https://www.invid-project.eu/tools-and-services/invid-verification-plugin/"     
+          },
+          {
+            "name": "Tabla de firmas de archivos (Metadata)",
+            "type": "url",
+            "url": "https://www.garykessler.net/library/file_sigs.html"     
+          },
+          {
+            "name": "Foto Forensics",
+            "type": "url",
+            "url": "http://fotoforensics.com/"     
+          },
+          {
+            "name": "Foca (Herramienta)",
+            "type": "url",
+            "url": "https://www.elevenpaths.com/es/labstools/foca-2/index.html"     
+          }
+        ],
+        "name": "Información de Imágenes (Exif)",
+        "type": "folder"
+      },
+
+      {
+        "children": [
+          {
+            "name": "Virus Total",
+            "type": "url",
+            "url": "https://www.virustotal.com/gui/"
+          },
+          {
+            "name": "Metadatos (herramienta)",
+            "type": "url",
+            "url": "https://github.com/hartek/metadatos"
+          },
+          {
+            "name": "MetaData2Go",
+            "type": "url",
+            "url": "https://www.metadata2go.com/"
+          },
+          {
+            "name": "Ghiro (Herramienta)",
+            "type": "url",
+            "url": "http://www.getghiro.org/"
+          }   
+        ],
+        "name": "Metadatos",
+        "type": "folder"
+      },
+
+      {
+        "children": [
+          {
+            "children": [
+              {
+                "name": "Skype Web Client",
+                "type": "url",
+                "url": "https://www.skype.com/es/unsupported-browser/"     
+              },
+              {
+                "name": "Mostwantedhf",
+                "type": "url",
+                "url": "https://mostwantedhf.info/index.php"     
+              },
+              {
+                "name": "Skypeipresolver",
+                "type": "url",
+                "url": "http://www.skypeipresolver.net/index.php"     
+              }
+            ],
+            "name": "Skype",
+            "type": "folder"   
+          },
+
+          {  
+            "children": [
+              {
+                "name": "Kik Username (M)",
+                "type": "url",
+                "url": "http://kik.me/%3Cusername%3E"     
+              }
+            ],
+            "name": "Kik",
+            "type": "folder"      
+          }
+        ],
+        "name": "Mensajeria Instantanea",
+        "type": "folder"
+      },
+
+      {
+        "children": [
+          {
+            "children": [
+              {
+                "name": "Skype Web Client",
+                "type": "url",
+                "url": "https://www.skype.com/es/unsupported-browser/"     
+              },
+              {
+                "name": "Mostwantedhf",
+                "type": "url",
+                "url": "https://mostwantedhf.info/index.php"     
+              },
+              {
+                "name": "Skypeipresolver",
+                "type": "url",
+                "url": "http://www.skypeipresolver.net/index.php"     
+              }
+            ],
+            "name": "Búsqueda General Personas",
+            "type": "folder"   
+          },
+
+          {
+            "name": "Snitch.name",
+            "type": "url",
+            "url": "http://www.snitch.name/"
+          },
+          {
+            "name": "Webmii",
+            "type": "url",
+            "url": "https://webmii.com/?language=es"
+          },
+          {
+            "name": "Peek Yout (EEUU)",
+            "type": "url",
+            "url": "https://www.peekyou.com/"
+          },
+          {
+            "name": "Spokeo (Nombre Apellido, Número Télefonico, Email, Dirección)",
+            "type": "url",
+            "url": "https://www.spokeo.com"
+          },
+          {
+            "name": "Tabla de firmas de archivos (Metadata)",
+            "type": "url",
+            "url": "https://www.garykessler.net/library/file_sigs.html"     
+          },
+          {
+            "name": "Foto Forensics",
+            "type": "url",
+            "url": "http://fotoforensics.com/"     
+          },
+          {
+            "name": "Foca (Herramienta)",
+            "type": "url",
+            "url": "https://www.elevenpaths.com/es/labstools/foca-2/index.html"     
+          }
+        ],
+        "name": "Inf. Personas y Redes Sociales",
         "type": "folder"
       }
     ],
@@ -773,7 +1464,6 @@
       {
         "children": [
           {  
-
             "name": "Consulta de Infracciones",
             "type": "url",
             "url": "https://www.rentascordoba.gob.ar/emisiontributaria/ver-y-pagar/caminera"     
