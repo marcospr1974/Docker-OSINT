@@ -1,9 +1,69 @@
 {
 "children": [
   {
+    
     "children": [
-      {
 
+      {
+        "children": [
+          {
+            "name": "Asint collection",
+            "type": "url",
+            "url": "https://start.me/p/b5Aow7/asint_collection/"
+          },
+          {
+            "name": "Bruno Mortier (EU)",
+            "type": "url",
+            "url": "https://start.me/p/3g0aKK/sources"
+          },
+          {
+            "name": "Verification set datingsites",
+            "type": "url",
+            "url": "https://start.me/p/VRxaj5/dating-apps-and-hook-up-sites-for-investigators"
+          },
+          {
+            "name": "Verification Toolset",
+            "type": "url",
+            "url": "https://start.me/p/ZGAzN7/verification-toolset"
+          },
+          {
+            "name": "AML Toolbox",
+            "type": "url",
+            "url": "https://start.me/p/rxeRqr/aml-toolbox?embed=1"
+          }
+        ],
+        "name": "Start.me",
+        "type": "folder"
+      },
+
+      {
+        "children": [
+          {
+            "name": "Online Password Hash Crack",
+            "type": "url",
+            "url": "https://www.onlinehashcrack.com/"
+          },
+          {
+            "name": "Crack Station",
+            "type": "url",
+            "url": "https://crackstation.net/"
+          },
+          {
+            "name": "Hashes",
+            "type": "url",
+            "url": "https://hashes.com/en/decrypt/hash"
+          },
+          {
+            "name": "MD5 Encrypt & Decrypt",
+            "type": "url",
+            "url": "https://md5decrypt.net/en/"
+          }
+        ],
+        "name": "Crack Password",
+        "type": "folder"
+      },
+
+      {
         "children": [
           {
             "name": "Oracle VirtualBox - GNU/Linux, Windows, OSX",
@@ -41,97 +101,122 @@
       }, 
       
       {
-      "children": [
-        {
-          "name": "Buscador Investigate Operating System",
-          "type": "url",
-          "url": "https://inteltechniques.com/buscador/"
-        },
-        {
-          "name": "Windows VM - Download Testing Microsoft Machine",
-          "type": "url",
-          "url": "https://developer.microsoft.com/es-es/windows/downloads/virtual-machines/"
-        },     
-        {
-          "name": "SADD.IO - 15 Minutos Libre VM + TOR",
-          "type": "url",
-          "url": "https://sadd.io/"
-        },
-        {
-          "name": "Osintux - Distro GNU/Linux",
-          "type": "url",
-          "url": "http://www.osintux.org/e"
-        }, 
-        {
-          "name": "Huron - Distro GNU/Linux",
-          "type": "url",
-          "url": "https://github.com/HuronOsint/OsintDistro"
-        },                  
-        {
-          "name": "Sift SANS Forensics VM",
-          "type": "url",
-          "url": "https://digital-forensics.sans.org/community/downloads/#overview"
-        },
-        {
-          "name": "Cain Live - Distro GNU/Linux",
-          "type": "url",
-          "url": "https://www.caine-live.net/"
-        },
-        {
-          "name": "Tsurugi Live - Distro GNU/Linux",
-          "type": "url",
-          "url": "https://tsurugi-linux.org/"
-        }
-      ],
-      "name": "Sistemas Operativos y Desktop de Virtualizacion",
-      "type": "folder"
+        "children": [
+          {
+            "name": "Buscador Investigate Operating System",
+            "type": "url",
+            "url": "https://inteltechniques.com/buscador/"
+          },
+          {
+            "name": "Windows VM - Download Testing Microsoft Machine",
+            "type": "url",
+            "url": "https://developer.microsoft.com/es-es/windows/downloads/virtual-machines/"
+          },     
+          {
+            "name": "SADD.IO - 15 Minutos Libre VM + TOR",
+            "type": "url",
+            "url": "https://sadd.io/"
+          },
+          {
+            "name": "Osintux - Distro GNU/Linux",
+            "type": "url",
+            "url": "http://www.osintux.org/e"
+          }, 
+          {
+            "name": "Huron - Distro GNU/Linux",
+            "type": "url",
+            "url": "https://github.com/HuronOsint/OsintDistro"
+          },                  
+          {
+            "name": "Sift SANS Forensics VM",
+            "type": "url",
+            "url": "https://digital-forensics.sans.org/community/downloads/#overview"
+          },
+          {
+            "name": "Cain Live - Distro GNU/Linux",
+            "type": "url",
+            "url": "https://www.caine-live.net/"
+          },
+          {
+            "name": "Tsurugi Live - Distro GNU/Linux",
+            "type": "url",
+            "url": "https://tsurugi-linux.org/"
+          },
+          {
+            "name": "Kali GNU/Linux",
+            "type": "url",
+            "url": "https://www.kali.org/"
+          },
+          {
+            "name": "GNU/Linux Mint",
+            "type": "url",
+            "url": "https://linuxmint.com/download.php"
+          },
+          {
+            "name": "GNU/Linux Ubuntu",
+            "type": "url",
+            "url": "https://ubuntu.com/download/desktop"
+          },
+          {
+            "name": "VirtualBoxes - Free VirtualBox Images",
+            "type": "url",
+            "url": "https://virtualboxes.org/"
+          },
+          {
+            "name": "OsBoxes - Free VirtualBox Images",
+            "type": "url",
+            "url": "https://www.osboxes.org/"
+          }        
+        ],
+        "name": "Sistemas Operativos y Desktop de Virtualizacion",
+        "type": "folder"
       },      
 
       {
-      "children": [
-        {
-          "name": "Whonix - Distro GNU/Linux Incluye TOR",
-          "type": "url",
-          "url": "https://www.whonix.org/"
-        },
-        {
-          "name": "Subgraph OS Incluye TOR",
-          "type": "url",
-          "url": "https://subgraph.com/"
-        },     
-        {
-          "name": "Tails Distro GNU/Linux Incluye TOR",
-          "type": "url",
-          "url": "https://tails.boum.org/"
-        },
-        {
-          "name": "QubesOS - Distro GNU/Linux",
-          "type": "url",
-          "url": "https://www.qubes-os.org/"
-        }, 
-        {
-          "name": "Ipredia - Distro GNU/Linux Uses I2P Instead de Tor",
-          "type": "url",
-          "url": "https://www.ipredia.org/os/o"
-        },                  
-        {
-          "name": "Kali Linux - Distro GNU/Linux",
-          "type": "url",
-          "url": "https://www.kali.org/"
-        },
-        {
-          "name": "Tsurugi Live - Distro GNU/Linux",
-          "type": "url",
-          "url": "https://tsurugi-linux.org/"
-        },
-        {
-          "name": "Discreete Live - Distro GNU/Linux",
-          "type": "url",
-          "url": "https://www.discreete-linux.org/features.html"
-        }
-      ],
-      "name": "Privacidad",
-      "type": "folder"
+        "children": [
+          {
+            "name": "Whonix - Distro GNU/Linux Incluye TOR",
+            "type": "url",
+            "url": "https://www.whonix.org/"
+          },
+          {
+            "name": "Subgraph OS Incluye TOR",
+            "type": "url",
+            "url": "https://subgraph.com/"
+          },     
+          {
+            "name": "Tails Distro GNU/Linux Incluye TOR",
+            "type": "url",
+            "url": "https://tails.boum.org/"
+          },
+          {
+            "name": "QubesOS - Distro GNU/Linux",
+            "type": "url",
+            "url": "https://www.qubes-os.org/"
+          }, 
+          {
+            "name": "Ipredia - Distro GNU/Linux Uses I2P Instead de Tor",
+            "type": "url",
+            "url": "https://www.ipredia.org/os/o"
+          },                  
+          {
+            "name": "Kali Linux - Distro GNU/Linux",
+            "type": "url",
+            "url": "https://www.kali.org/"
+          },
+          {
+            "name": "Tsurugi Live - Distro GNU/Linux",
+            "type": "url",
+            "url": "https://tsurugi-linux.org/"
+          },
+          {
+            "name": "Discreete Live - Distro GNU/Linux",
+            "type": "url",
+            "url": "https://www.discreete-linux.org/features.html"
+          }
+        ],
+        "name": "Privacidad",
+        "type": "folder"
       },
 
       {
@@ -157,6 +242,11 @@
             "url": "https://www.privacytools.io/"
           },
           {
+            "name": "Proxy Online",
+            "type": "url",
+            "url": "http://proxysnel.nl/"
+          },
+          {
             "name": "I2P Anonymous Network",
             "type": "url",
             "url": "https://geti2p.net/en/"
@@ -170,6 +260,11 @@
             "name": "OpenVPN",
             "type": "url",
             "url": "https://openvpn.net/"
+          },
+          {
+            "name": "ProtonVPN",
+            "type": "url",
+            "url": "https://protonvpn.com/"
           },
           {
             "name": "ProxyDB",
@@ -220,6 +315,32 @@
      
       {
         "children": [
+          {
+            "name": "Información de my User Agent",
+            "type": "url",
+            "url": "https://www.whatsmyua.info/"
+          },
+          {
+            "name": "Doble Autentificación (Sitio web que lo soporta)",
+            "type": "url",
+            "url": "https://twofactorauth.org/"
+          },
+          {
+            "name": "Guia de Privacidad (Herramientas Desktop, Mobile, etc)",
+            "type": "url",
+            "url": "https://epic.org/privacy/tools.html"
+          },
+          {
+            "name": "Browser Leak (Muy bueno)",
+            "type": "url",
+            "url": "https://browserleaks.com/"
+          },
+          {
+            "name": "Verificar si el site esta abajo o solo a nosotros",
+            "type": "url",
+            "url": "https://downforeveryoneorjustme.com/"
+          },
+
           {
             "name": "Adblock Plus (Chrome)",
             "type": "url",
@@ -329,9 +450,66 @@
             "name": "Data Scraper - Easy Web Scraping (Chrome)",
             "type": "url",
             "url": "https://chrome.google.com/webstore/detail/data-scraper-easy-web-scr/nndknepjnldbdbepjfgmncbggmopgden"
+          },
+          {
+            "name": "Chequear una web si esta en la blacklist, tiene malware, virus, etc)",
+            "type": "url",
+            "url": "https://sitecheck.sucuri.net/"
           }
         ],
         "name": "Extensiones/Addons - Privacidad/Seguridad",
+        "type": "folder"
+      },
+
+      {
+        "children": [
+          {
+            "name": "Google Tanslate",
+            "type": "url",
+            "url": "https://translate.google.com/?ui=tob"
+          },
+          {
+            "name": "Cyrcillic decoder",
+            "type": "url",
+            "url": "https://2cyr.com/decode/?lang=en"
+          },
+          {
+            "name": "Ethonlogue",
+            "type": "url",
+            "url": "https://www.ethnologue.com/"
+          },
+          {
+            "name": "Deepl",
+            "type": "url",
+            "url": "https://www.deepl.com/translator"
+          },
+          {
+            "name": "Free Online OCR",
+            "type": "url",
+            "url": "https://www.newocr.com/"
+          },
+          {
+            "name": "Free Online OCR",
+            "type": "url",
+            "url": "https://www.newocr.com/"
+          },
+          {
+            "name": "Significado de los Hashtags",
+            "type": "url",
+            "url": "https://tagdef.com/es/"
+          },
+          {
+            "name": "Urban Dictionary (Ingles)",
+            "type": "url",
+            "url": "https://www.urbandictionary.com/"
+          },   
+          {
+            "name": "Yamil",
+            "type": "url",
+            "url": "https://www.yamli.com/arabic-keyboard//"
+          }
+        ],
+        "name": "Traductor/Lenguaje",
         "type": "folder"
       },
 
@@ -398,6 +576,16 @@
             "name": "Face Merging",
             "type": "url",
             "url": "https://www.faceplusplus.com/face-merging/"
+          },
+          {
+            "name": "Generated Photo Face",
+            "type": "url",
+            "url": "https://generated.photos/anonymizer"
+          },
+          {
+            "name": "This Person does not exist",
+            "type": "url",
+            "url": "https://thispersondoesnotexist.com/"
           }
         ],
         "name": "Crear Identificación Falsa",
@@ -605,6 +793,16 @@
                 "name": "Cambiar User-Agent para Instagram (Mybrowseraddon)",
                 "type": "url",
                 "url": "https://mybrowseraddon.com/custom-useragent-string.html"     
+              },
+              {
+                "name": "Búsqueda de usuario",
+                "type": "url",
+                "url": "https://searchusers.com/"     
+              },
+              {
+                "name": "Instaloader (Herramienta)",
+                "type": "url",
+                "url": "https://github.com/instaloader/instaloader"     
               }
             ],
             "name": "Instagram",
@@ -827,7 +1025,6 @@
                 "type": "url",
                 "url": "http://projects.noahliebman.net/listcopy/connect.php"     
               },
-
               {
                 "name": "Análisis de Twitter (Mentionmap)",
                 "type": "url",
@@ -842,6 +1039,66 @@
                 "name": "Primer Tweet sobre un tema",
                 "type": "url",
                 "url": "http://ctrlq.org/first/"     
+              },
+              {
+                "name": "Descargar Vídeos de Twitter",
+                "type": "url",
+                "url": "https://www.downloadtwittervideo.com/es/"     
+              },
+              {
+                "name": "Social Bearning",
+                "type": "url",
+                "url": "https://socialbearing.com/"     
+              },
+              {
+                "name": "TinfoLeak",
+                "type": "url",
+                "url": "https://tinfoleak.com/"     
+              },
+              {
+                "name": "Tweetbeaver (Herramienta muy completa)",
+                "type": "url",
+                "url": "https://tweetbeaver.com/"     
+              },
+              {
+                "name": "TweetMap (Mapa de Twitter muy completa)",
+                "type": "url",
+                "url": "https://www.omnisci.com/demos/tweetmap"     
+              },
+              {
+                "name": "Treeverse (Herramienta Navegador pra visualizar)",
+                "type": "url",
+                "url": "https://github.com/paulgb/Treeverse/blob/master/README.md#readme"     
+              },
+              {
+                "name": "hashatit.com (hashtag en varias redes sociales)",
+                "type": "url",
+                "url": "https://www.hashatit.com"     
+              },
+              {
+                "name": "Canales en Vivo",
+                "type": "url",
+                "url": "https://www.pscp.tv/"     
+              },
+              {
+                "name": "TweetEraser - Delete All Your Tweets And Favorites",
+                "type": "url",
+                "url": "https://www.tweeteraser.com/"     
+              },
+              {
+                "name": "Twitwipe - Delete All Your Tweets",
+                "type": "url",
+                "url": "https://twitwipe.com/"     
+              },
+              {
+                "name": "TweetDelete - Delete All Your Tweets (Free)",
+                "type": "url",
+                "url": "https://tweetdelete.net/"     
+              },
+              {
+                "name": "TweetDeleter - Delete All Your Tweets",
+                "type": "url",
+                "url": "https://tweetdeleter.com/"     
               }
             ],
             "name": "Twitter",
@@ -853,7 +1110,12 @@
                 "name": "Reddit",
                 "type": "url",
                 "url": "https://www.reddit.com"     
-              }
+              },
+              {
+                "name": "Hi Redditor",
+                "type": "url",
+                "url": "http://reditr.com/"     
+              }              
             ],
             "name": "Reddit",
             "type": "folder"      
@@ -867,6 +1129,22 @@
               }
             ],
             "name": "Linkedin",
+            "type": "folder"      
+          },
+          {  
+            "children": [
+              {
+                "name": "Web Whatsapp Whats",
+                "type": "url",
+                "url": "https://web.whatsapp.com/"     
+              },
+              {
+                "name": "Fake Whats",
+                "type": "url",
+                "url": "http://www.fakewhats.com/generator"     
+              }
+            ],
+            "name": "Whatsapp",
             "type": "folder"      
           },
           {  
@@ -920,7 +1198,12 @@
                 "name": "VK",
                 "type": "url",
                 "url": "https://vk.com/?lang=es"
-              }  
+              },
+              {
+                "name": "Búsqueda de información en las redes sociales (Muy bueno)",
+                "type": "url",
+                "url": "https://www.social-searcher.com"
+              }
             ],
             "name": "Otras Redes Sociales",
             "type": "folder"      
@@ -950,6 +1233,7 @@
         "name": "Redes Sociales",
         "type": "folder"
       },
+
       {
         "children": [
           {
@@ -958,6 +1242,7 @@
         "name": "Sistemas de Multas",
         "type": "folder"
       },
+
       {
         "children": [
           {
@@ -1004,6 +1289,11 @@
             "name": "Metabuscador (Searx)",
             "type": "url",
             "url": "https://searx.me/"     
+          },
+          {
+            "name": "Metabuscador (itools)",
+            "type": "url",
+            "url": "http://itools.com/"     
           },
           {
             "name": "Buscadores por paises (searchenginecolossus)",
@@ -1104,6 +1394,7 @@
         "name": "Búscadores",
         "type": "folder"
       },
+
       {
         "children": [
           {
@@ -1132,7 +1423,7 @@
             "url": "https://tineye.com/extensions"     
           },
           {
-            "name": "PimEyes",
+            "name": "PimEyes (Face Search Engine - Reverse Image Search)",
             "type": "url",
             "url": "https://pimeyes.com/en/"     
           },
@@ -1221,9 +1512,6 @@
             "type": "url",
             "url": "https://text-compare.com/"     
           }
-
-
-
         ],
         "name": "Imágenes Reversa",
         "type": "folder"
@@ -1262,6 +1550,26 @@
             "url": "http://fotoforensics.com/"     
           },
           {
+            "name": "Camera Summary Metadata Analyzer",
+            "type": "url",
+            "url": "https://camerasummary.com/"     
+          },
+          {
+            "name": "Doc Scrubber (Herramienta)",
+            "type": "url",
+            "url": "https://www.brightfort.com/docscrubber.html#Overview/"     
+          },
+          {
+            "name": "ExifTools (Herramienta)",
+            "type": "url",
+            "url": "https://exiftool.org/"     
+          },
+          {
+            "name": "View and Remove Exif Online",
+            "type": "url",
+            "url": "http://www.verexif.com/en/"     
+          },
+          {
             "name": "Foca (Herramienta)",
             "type": "url",
             "url": "https://www.elevenpaths.com/es/labstools/foca-2/index.html"     
@@ -1292,9 +1600,96 @@
             "name": "Ghiro (Herramienta)",
             "type": "url",
             "url": "http://www.getghiro.org/"
-          }   
+          },
+          {
+            "name": "Ver y Remover Exif (Muy bueno)",
+            "type": "url",
+            "url": "http://www.verexif.com/en/"
+          }
         ],
         "name": "Metadatos",
+        "type": "folder"
+      },
+
+      {
+        "children": [
+            {
+              "name": "Hugin",
+              "type": "url",
+              "url": "http://hugin.sourceforge.net/"
+            },
+            {
+              "name": "Tube Offline)",
+              "type": "url",
+              "url": "https://www.tubeoffline.com/"
+            },
+            {
+              "name": "VLC Media Player",
+              "type": "url",
+              "url": "https://www.videolan.org/vlc/index.es.html"
+            },
+            {
+              "name": "Hook Tube",
+              "type": "url",
+              "url": "https://hooktube.com/"
+            },
+            {
+              "name": "Keepvid",
+              "type": "url",
+              "url": "https://keepvid.com/"
+            },
+            {
+              "name": "Keepvid (Video converter, editor, compresor)",
+              "type": "url",
+              "url": "https://keepvid.com/"
+            },
+            {
+              "name": "Yout.com (Bajar video)",
+              "type": "url",
+              "url": "https://yout.com/"
+            },
+            {
+              "name": "Youtube-dl (Herramienta)",
+              "type": "url",
+              "url": "https://ytdl-org.github.io/youtube-dl/index.html"
+            },
+            {
+              "name": "Save From.net (Youtube video Downloader)",
+              "type": "url",
+              "url": "https://en.savefrom.net/1-youtube-video-downloader-4/"
+            },
+            {
+              "name": "Youtube DataViewer (Trae las imagenes de 4seg para hacer reversa)",
+              "type": "url",
+              "url": "https://citizenevidence.amnestyusa.org/"
+            },
+            {
+              "name": "ClipConvert (Cortar video - Muy bueno)",
+              "type": "url",
+              "url": "https://www.clipconverter.cc/es/2/"
+            },
+            {
+              "name": "Watch Frame by Frame (Permite compartir el frame desde)",
+              "type": "url",
+              "url": "http://www.watchframebyframe.com/"
+            },
+            {
+              "name": "Deturl (Bajar videos - Muy bueno)",
+              "type": "url",
+              "url": "http://deturl.com/"
+            },   
+            {
+              "name": "Thumbnailsave (Bajar portada - Muy bueno)",
+              "type": "url",
+              "url": "http://thumbnailsave.com/"
+            }, 
+            {
+              "name": "Convertir video a jpg (Muy bueno)",
+              "type": "url",
+              "url": "https://www.onlineconverter.com/video-to-jpg"
+            } 
+        ],
+        "name": "Vídeos",
         "type": "folder"
       },
 
@@ -1356,12 +1751,32 @@
                 "name": "Skypeipresolver",
                 "type": "url",
                 "url": "http://www.skypeipresolver.net/index.php"     
+              },
+              {
+                "name": "411.com (Personas de EEUU)",
+                "type": "url",
+                "url": "https://www.411.com/"     
+              },
+              {
+                "name": "Rocketreach (Tipo pipl)",
+                "type": "url",
+                "url": "https://rocketreach.co/"     
+              },
+              {
+                "name": "Crunchbase (Empresarial)",
+                "type": "url",
+                "url": "https://www.crunchbase.com/"     
+              },
+
+              {
+                "name": "Pipl (Pago)",
+                "type": "url",
+                "url": "https://pipl.com/"     
               }
             ],
             "name": "Búsqueda General Personas",
             "type": "folder"   
           },
-
           {
             "name": "Snitch.name",
             "type": "url",
@@ -1400,6 +1815,661 @@
         ],
         "name": "Inf. Personas y Redes Sociales",
         "type": "folder"
+      },
+
+      {
+        "children": [
+          {
+            "name": "Spokeo",
+            "type": "url",
+            "url": "https://www.spokeo.com/"     
+          },
+          {
+            "name": "TrueCalle  (Número Télefonico)",
+            "type": "url",
+            "url": "https://www.truecaller.com/"
+          },
+          {
+            "name": "This Number (Número Télefonico web por país)",
+            "type": "url",
+            "url": "https://www.thisnumber.com/"
+          }, 
+          {
+            "name": "Sync.me",
+            "type": "url",
+            "url": "https://sync.me/"
+          },           
+          {
+            "name": "Should I Answer?",
+            "type": "url",
+            "url": "https://hu.shouldianswer.net/"
+          }
+        ],
+        "name": "Móviles",
+        "type": "folder"   
+      },
+
+      {
+        "children": [
+          {
+            "name": "Skype Web Client",
+            "type": "url",
+            "url": "https://www.skype.com/es/unsupported-browser/"     
+          },
+          {
+            "name": "Mostwantedhf",
+            "type": "url",
+            "url": "https://mostwantedhf.info/index.php"     
+          },
+          {
+            "name": "Skypeipresolver",
+            "type": "url",
+            "url": "http://www.skypeipresolver.net/index.php"     
+          },
+          {
+            "name": "411.com (Personas de EEUU)",
+            "type": "url",
+            "url": "https://www.411.com/"     
+          },
+          {
+            "name": "Rocketreach (Tipo pipl)",
+            "type": "url",
+            "url": "https://rocketreach.co/"     
+          },
+          {
+            "name": "Crunchbase (Empresarial)",
+            "type": "url",
+            "url": "https://www.crunchbase.com/"     
+          },
+          {
+            "name": "Spokeo",
+            "type": "url",
+            "url": "https://www.spokeo.com/"     
+          },
+          {
+            "name": "Pipl (Pago)",
+            "type": "url",
+            "url": "https://pipl.com/"     
+          }
+        ],
+        "name": "Búsqueda General Personas",
+        "type": "folder"   
+      },
+
+      {
+        "children": [
+          {
+            "name": "Air Fleets (España)",
+            "type": "url",
+            "url": "https://www.airfleets.es/home/"
+          },
+          {
+            "name": "Flightradar24 (Muy bueno)",
+            "type": "url",
+            "url": "https://www.flightradar24.com/"
+          },
+          {
+            "name": "Plant Finder (Muy bueno)",
+            "type": "url",
+            "url": "https://planefinder.net/"
+          },
+          {
+            "name": "Passenger Airlines Wiki",
+            "type": "url",
+            "url": "https://en.wikipedia.org/wiki/List_of_passenger_airlines#List_of_passenger_airlines"
+          },
+          {
+            "name": "FAA Registry",
+            "type": "url",
+            "url": "https://registry.faa.gov/aircraftinquiry/"
+          },
+          {
+            "name": "AirNav RadarBox",
+            "type": "url",
+            "url": "https://www.radarbox.com/data/flights/"
+          },
+          {
+            "name": "FlightAware",
+            "type": "url",
+            "url": "https://uk.flightaware.com/"
+          }
+        ],
+        "name": "Aeronaves",
+        "type": "folder"   
+      },
+
+      {
+         "children": [
+          {
+            "name": "Marine Traffic",
+            "type": "url",
+            "url": "https://www.marinetraffic.com/"
+          },
+          {
+            "name": "Schiffs Radar",
+            "type": "url",
+            "url": "https://schiffsradar.net/"
+          },
+          {
+            "name": "BoatInfoWorld",
+            "type": "url",
+            "url": "https://www.boatinfoworld.com/"
+          }          
+        ],
+        "name": "Barcos",
+        "type": "folder"   
+      },
+
+      {
+        "children": [
+         {
+           "name": "OpenRailwayMap (Muy bueno)",
+           "type": "url",
+           "url": "https://www.openrailwaymap.org/"
+         },
+         {
+           "name": "Raildar",
+           "type": "url",
+           "url": "http://raildar.co.uk/radar.html"
+         },
+         {
+           "name": "Train Tracker",
+           "type": "url",
+           "url": "https://tracker.geops.ch/?z=4&s=1&x=2333194.1734&y=5762516.4631&l=transport"
+         },
+         {
+          "name": "TrainRadar - Track-Trace.LIVE (Varios Paises NO ARG)",
+          "type": "url",
+          "url": "https://track-trace.live/trainradar/"
+         },         
+         {
+          "name": "Railroad Werbcams, Railcams & Live Train Videos (Varios Paises NO ARG)",
+          "type": "url",
+          "url": "https://www.railserve.com/RailCams/"
+         } 
+        ],
+        "name": "Ferrocarriles",
+        "type": "folder"   
+      },
+
+      {
+        "children": [
+          {
+            "name": "vTuner Internet Radio (Muy bueno)",
+            "type": "url",
+            "url": "http://vtuner.com/setupapp/guide/asp/BrowseStations/StartPage.asp?sBrowseType=Location"
+          },
+          {
+            "name": "Radio.garden (Muy bueno)",
+            "type": "url",
+            "url": "http://radio.garden/"
+          },
+          {
+            "name": "GlobalTuners (No Argentina y otros países)",
+            "type": "url",
+            "url": "https://www.globaltuners.com/"
+          },
+          {
+            "name": "ProScan (Herramienta)",
+            "type": "url",
+            "url": "https://www.proscan.org/"
+          }
+        ],
+        "name": "Radios",
+        "type": "folder"   
+      },
+
+      {
+        "children": [
+          {
+            "name": "Whois Domain Tools",
+            "type": "url",
+            "url": "https://whois.domaintools.com/"     
+          },
+          {
+            "name": "Central Ops",
+            "type": "url",
+            "url": "https://centralops.net/co/"     
+          },
+          {
+            "name": "View DNS",
+            "type": "url",
+            "url": "https://viewdns.info/"     
+          },
+          {
+            "name": "Visual Trace Route (Muy bueno - Herramienta)",
+            "type": "url",
+            "url": "https://visualtraceroute.net/"     
+          },
+          {
+            "name": "MX ToolBox (Muy bueno - Info. MX)",
+            "type": "url",
+            "url": "https://mxtoolbox.com/"     
+          },
+          {
+            "name": "Visual Ping (monitoreo web)",
+            "type": "url",
+            "url": "https://visualping.io/"     
+          },
+          {
+            "name": "IP 2 Location (Demo y Pago)",
+            "type": "url",
+            "url": "https://www.ip2location.com/"     
+          },
+          {
+            "name": "Wingle (Mapa de WIFI)",
+            "type": "url",
+            "url": "https://wigle.net/"     
+          },
+          {
+            "name": "Network Miner (Herramienta)",
+            "type": "url",
+            "url": "https://www.netresec.com/index.ashx?page=NetworkMiner"     
+          },
+          {
+            "name": "DNS Dumper (Muy bueno)",
+            "type": "url",
+            "url": "https://dnsdumpster.com/"     
+          },
+          {
+            "name": "Tools DNS Stuff (Muy bueno y completo)",
+            "type": "url",
+            "url": "https://tools.dnsstuff.com/"     
+          },
+          {
+            "name": "Robtex (Muy bueno y completo)",
+            "type": "url",
+            "url": "https://www.robtex.com/"     
+          },
+          {
+            "name": "Maxmind (Demo GeoIP - Pago)",
+            "type": "url",
+            "url": "https://www.maxmind.com/en/home"     
+          },
+          {
+            "name": "Shodan (IT de las cosas)",
+            "type": "url",
+            "url": "https://www.shodan.io/"     
+          },
+          {
+            "name": "Censys (IT de las cosas)",
+            "type": "url",
+            "url": "https://censys.io/"     
+          },
+          {
+            "name": "Zoomeye (IT de las cosas)",
+            "type": "url",
+            "url": "https://www.zoomeye.org"     
+          },
+          {
+            "name": "Fofa (IT de las cosas)",
+            "type": "url",
+            "url": "https://censys.io/"     
+          },
+          {
+            "name": "Onyphe (IT de las cosas)",
+            "type": "url",
+            "url": "https://www.onyphe.io/"     
+          },
+          {
+            "name": "Onyphe (IT de las cosas)",
+            "type": "url",
+            "url": "https://www.onyphe.io/"     
+          },
+          {
+            "name": "IP Lookup (Muy bueno con GeoLocalización)",
+            "type": "url",
+            "url": "https://whatismyipaddress.com/ip-lookup"     
+          },
+          {
+            "name": "CuteStat - website stats and valuation",
+            "type": "url",
+            "url": "https://www.cutestat.com/"     
+          },
+          {
+            "name": "Archive.org (Web viejas)",
+            "type": "url",
+            "url": "https://archive.org/web/"     
+          },         
+          {
+            "name": "XML-Site Map Crawler",
+            "type": "url",
+            "url": "https://www.xml-sitemaps.com/"     
+          },
+          {
+            "name": "Pentest Tools (Muy bueno)",
+            "type": "url",
+            "url": "https://pentest-tools.com/home"     
+          },
+          {
+            "name": "Email Address Verification",
+            "type": "url",
+            "url": "https://tools.verifyemailaddress.io/"     
+          },
+          {
+            "name": "Have i been pwned? (Muy bueno)",
+            "type": "url",
+            "url": "https://haveibeenpwned.com/"     
+          }
+        ],
+        "name": "Dominio/E-Mail/IP Info",
+        "type": "folder"
+      },
+
+      {
+        "children": [
+          {
+            "name": "Instant Stree View",
+            "type": "url",
+            "url": "https://www.instantstreetview.com/"     
+          },
+          {
+            "name": "WayBack app (Cambio a traves de fecha - muy bueno)",
+            "type": "url",
+            "url": "https://livingatlas.arcgis.com/wayback"     
+          },
+          {
+            "name": "Google Maps)",
+            "type": "url",
+            "url": "https://www.google.com/maps"     
+          },
+          {
+            "name": "Google Earth)",
+            "type": "url",
+            "url": "https://www.google.com/earth/"     
+          },
+          {
+            "name": "Google Earth",
+            "type": "url",
+            "url": "https://www.google.com/earth/"     
+          },
+          {
+            "name": "OpenStreetMap",
+            "type": "url",
+            "url": "https://www.openstreetmap.org/"     
+          },
+          {
+            "name": "Wikimapia",
+            "type": "url",
+            "url": "http://wikimapia.org"     
+          },
+          {
+            "name": "Wikimapia",
+            "type": "url",
+            "url": "http://wikimapia.org"     
+          },
+          {
+            "name": "Bing Map",
+            "type": "url",
+            "url": "https://www.bing.com/maps"     
+          },
+          {
+            "name": "Travel with Drone (Muy bueno)",
+            "type": "url",
+            "url": "https://travelwithdrone.com/"     
+          },
+          {
+            "name": "Open Railway Map (Muy bueno)",
+            "type": "url",
+            "url": "https://www.openrailwaymap.org/"     
+          },
+          {
+            "name": "Satellites Pro (Muy bueno, permite tomar medidas y varios mapas)",
+            "type": "url",
+            "url": "https://satellites.pro"     
+          },
+          {
+            "name": "Webcam del mundo (Muy bueno)",
+            "type": "url",
+            "url": "https://midasearch.org/midasearch-webcam-viewers/"     
+          }
+        ],
+        "name": "Mapa/Satelite",
+        "type": "folder"
+      },
+
+      {
+        "children": [
+          {
+            "name": "Scrapy (Herramienta Python)",
+            "type": "url",
+            "url": "https://whois.domaintools.com/"     
+          },
+          {
+            "name": "Data Miner",
+            "type": "url",
+            "url": "https://data-miner.io/"     
+          }
+        ],
+        "name": "Website Scraping Crawling",
+        "type": "folder"
+      },
+
+      {
+        "children": [
+          {
+            "name": "Archive.is (First choice for Deleted Social Media)",
+            "type": "url",
+            "url": "https://archive.is/"     
+          },
+          {
+            "name": "Archivebox.io",
+            "type": "url",
+            "url": "https://archivebox.io/"     
+          },
+          {
+            "name": "HTTrak website copier (Herramienta - Muy bueno)",
+            "type": "url",
+            "url": "https://www.httrack.com/"     
+          },
+          {
+            "name": "OSIRT Browser (Herramienta - Muy bueno)",
+            "type": "url",
+            "url": "http://osirtbrowser.com/"     
+          },
+          {
+            "name": "Website Downloader (Herramienta - Muy bueno)",
+            "type": "url",
+            "url": "https://websitedownloader.io/"     
+          },
+          {
+            "name": "GNU Wget (Herramienta - Muy bueno)",
+            "type": "url",
+            "url": "https://www.gnu.org/software/wget/"     
+          }
+        ],
+        "name": "Web Archiving Mirroring",
+        "type": "folder"
+      },
+
+      {
+        "children": [
+          {
+            "name": "Data Visualization Tool (Permite cargar un csv y realiza los nodos)",
+            "type": "url",
+            "url": "https://www.osintcombine.com/data-visualization-tool"
+          },
+          {
+            "name": "Diagram Codes text2diagram",
+            "type": "url",
+            "url": "https://playground.diagram.codes/d/tree"
+          }, 
+          {
+            "name": "Flowchart Maker & Online Diagram Software",
+            "type": "url",
+            "url": "https://app.diagrams.net/"
+          },
+          {
+            "name": "VIS Desktop",
+            "type": "url",
+            "url": "https://docs.alephdata.org/guide/building-out-your-investigation/network-diagrams"
+          },
+          {
+            "name": "Ghepi (Herramienta)",
+            "type": "url",
+            "url": "https://gephi.org/"
+          },
+          {
+            "name": "Dia (Herramienta)",
+            "type": "url",
+            "url": "http://dia-installer.de/download/linux.html.es"
+          },
+          {
+            "name": "NodeExcel (Herramienta)",
+            "type": "url",
+            "url": "https://archive.codeplex.com/?p=nodexl"
+          },
+          {
+            "name": "Visualization Tools for Investigators (Herramienta)",
+            "type": "url",
+            "url": "https://vis.occrp.org/"
+          },
+          {
+            "name": "Mind Mapper (Herramienta)",
+            "type": "url",
+            "url": "https://www.mindmapper.com/"
+          },          
+          {
+            "name": "Mind Mup (Herramienta)",
+            "type": "url",
+            "url": "https://blog.mindmup.com/"
+          }           
+        ],
+        "name": "Visualización de Datos/Mapeo",
+        "type": "folder"   
+      },
+
+      {
+        "children": [
+          {
+            "name": "Zotero",
+            "type": "url",
+            "url": "https://www.zotero.org/"
+          }         
+        ],
+        "name": "Bookmarks",
+        "type": "folder"   
+      },
+
+      {
+        "children": [
+          {
+            "name": "SpiderFoot (Herramienta)",
+            "type": "url",
+            "url": "https://www.spiderfoot.net/"
+          },
+          {
+            "name": "GitHub Creepy (Herramienta - Sin mantenimiento)",
+            "type": "url",
+            "url": "https://github.com/ilektrojohn/creepy"
+          },
+          {
+            "name": "GitHub Recon-ng (Herramienta)",
+            "type": "url",
+            "url": "https://github.com/lanmaster53/recon-ng"
+          },
+          {
+            "name": "Tutorial Recon-ng",
+            "type": "url",
+            "url": "https://hackertarget.com/recon-ng-tutorial/"
+          },
+          {
+            "name": "Google Colaboraty | Python Notebook",
+            "type": "url",
+            "url": "https://colab.research.google.com/notebooks/welcome.ipynb"
+          },
+          {
+            "name": "ReconSpider (Herramienta)",
+            "type": "url",
+            "url": "https://hakin9.org/reconspider-most-advanced-open-source-intelligence-osint-framework/"
+          },
+          {
+            "name": "QueryTool is an OSINT framework based on Google Spreadsheets",
+            "type": "url",
+            "url": "https://github.com/oryon-osint/querytool"
+          },
+          {
+            "name": "Google Account",
+            "type": "url",
+            "url": "https://myaccount.google.com/"
+          },
+          {
+            "name": "Google Passwords",
+            "type": "url",
+            "url": "https://passwords.google.com/"
+          },
+          {
+            "name": "BoardReader",
+            "type": "url",
+            "url": "https://boardreader.com/trendy"
+          },
+          {
+            "name": "PDF Convert Online",
+            "type": "url",
+            "url": "https://www.pdfconverter.com/free-pdf-conversion-online/"
+          },
+          {
+            "name": "File Analysis Tool",
+            "type": "url",
+            "url": "http://static.solvusoft.com/en/file-extension-analysis-tool/"
+          },
+          {
+            "name": "OSINT Cheat Sheet",
+            "type": "url",
+            "url": "https://hack2interesting.com/osint-cheat-sheet/"
+          },
+          {
+            "name": "OSINT: Search Engines",
+            "type": "url",
+            "url": "http://www.cyber-forensics.ch/osint-search-engines/"
+          },
+          {
+            "name": "EdisonTD (Pasaportes y más de los países)",
+            "type": "url",
+            "url": "http://edisontd.net/"
+          },
+          {
+            "name": "Google Alert (Muy bueno)",
+            "type": "url",
+            "url": "https://www.google.com/alerts"
+          }
+        ],
+        "name": "Herramientas OSINT",
+        "type": "folder"   
+      },
+
+      {
+        "children": [
+          {
+            "name": "Lectura de Código de Barra",
+            "type": "url",
+            "url": "https://online-barcode-reader.inliteresearch.com/"
+          }         
+        ],
+        "name": "Barcode",
+        "type": "folder"   
+      },
+
+      {
+        "children": [
+          {
+            "name": "BlockChain",
+            "type": "url",
+            "url": "https://www.blockchain.com/"
+          },
+          {
+            "name": "Bitaps",
+            "type": "url",
+            "url": "https://bitaps.com/"
+          },          
+          {
+            "name": "Orbit (Herramienta - Seguimiento)",
+            "type": "url",
+            "url": "https://github.com/s0md3v/Orbit"
+          }           
+        ],
+        "name": "Bitcoins/Criptomonedas",
+        "type": "folder"   
       }
     ],
     "name": "General",
@@ -1430,7 +2500,6 @@
       {
         "children": [
           {  
-
             "name": "Consulta de Infracciones",
             "type": "url",
             "url": "https://www.buenosaires.gob.ar/consulta-de-infracciones"     
