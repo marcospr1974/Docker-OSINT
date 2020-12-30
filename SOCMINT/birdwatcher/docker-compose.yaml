@@ -1,0 +1,16 @@
+version: '3.1'
+
+services:
+    postgres:
+       image: postgres:latest
+       hostname: postgres
+       container_name: postgres
+       environment:
+           - POSTGRES_DB=birdwatcher
+           - POSTGRES_USER=birdwatcher
+           - POSTGRES_PASSWORD=birdwatcher
+       volumes:
+           - pgdata:/var/lib/postgresql/data
+       ports:
+          - 5432:5432
+       restart: always
