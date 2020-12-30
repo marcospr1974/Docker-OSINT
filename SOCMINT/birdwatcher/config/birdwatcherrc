@@ -1,6 +1,6 @@
 ---
-database_connection_uri: postgres://birdwatcher:birdwatcher@192.168.1.106:5432/birdwatcher
+database_connection_uri: postgres://birdwatcher:birdwatcher@IP:5432/birdwatcher
 twitter:
-- consumer_key: coViEVDufiWxpDpKJAICPkfS1
-  consumer_secret: 6Op9uNsH7oLOhxFoTn4ajvWXUszP6x3xnrlFlGhFVi1JZ0oCg3
+- consumer_key: 
+  consumer_secret: 
 klout: []
