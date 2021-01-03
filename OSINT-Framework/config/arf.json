@@ -593,7 +593,22 @@
                 "name": "Pwndb (Ver claves de email, dominio - Muy Bueno)",
                 "type": "url",
                 "url": "pwndb2am4tzkovld.onion.ws/"     
-              },          
+              },
+              {
+                "name": "Hunter.io (Obtener informarción de los email)",
+                "type": "url",
+                "url": "hunter.io"     
+              },
+              {
+                "name": "Extensión Firefox Hunter",
+                "type": "url",
+                "url": "https://addons.mozilla.org/es/firefox/addon/hunterio/"     
+              },
+              {
+                "name": "Extensión Chrome Hunter",
+                "type": "url",
+                "url": "https://chrome.google.com/webstore/detail/hunter-find-email-address/hgmhmanijnjhaffoampdlllchpolkdnj"     
+              },                   
               {
                 "name": "Breachalarm (Muy bueno - Verificar si el mail está comprometido)",
                 "type": "url",
@@ -865,6 +880,11 @@
                 "name": "Google Alert (Muy bueno)",
                 "type": "url",
                 "url": "https://www.google.com/alerts"
+              },
+              {
+                "name": "Herramientas esenciales (Muy bueno)",
+                "type": "url",
+                "url": "https://www.osintessentials.com"
               }
             ],
             "name": "Herramientas OSINT",
@@ -1896,7 +1916,27 @@
                     "name": "Linkedin",
                     "type": "url",
                     "url": "https://www.linkedin.com"     
-                  }
+                  },
+                  {
+                    "name": "Extraer Perfiles de Linkedin (Herramienta)",
+                    "type": "url",
+                    "url": "https://github.com/nettitude/Prowl"     
+                  },
+                  {
+                    "name": "Scraping sobre Linkedin (Herramienta)",
+                    "type": "url",
+                    "url": "https://github.com/m8r0wn/CrossLinked"     
+                  },
+                  {
+                    "name": "Traer información de empresas sobre Linkedin (Herramienta)",
+                    "type": "url",
+                    "url": "https://github.com/0x09AL/raven"     
+                  },
+                  {
+                    "name": "Extraer toda la información asociada a un perfil (Herramienta)",
+                    "type": "url",
+                    "url": "https://github.com/linkedtales/scrapedin-linkedin-crawler"     
+                  }        
                 ],
                 "name": "Linkedin",
                 "type": "folder"      
@@ -1915,6 +1955,42 @@
                   }
                 ],
                 "name": "Whatsapp",
+                "type": "folder"      
+              },
+              {  
+                "children": [
+                  {
+                    "name": "TikTok",
+                    "type": "url",
+                    "url": "https://www.tiktok.com/"     
+                  },
+                  {
+                    "name": "Búsqueda en TikTok",
+                    "type": "url",
+                    "url": "https://www.osintcombine.com/tiktok-quick-search"     
+                  },
+                  {
+                    "name": "Búsqueda en TikTok",
+                    "type": "url",
+                    "url": "https://www.osintcombine.com/tiktok-quick-search"     
+                  },
+                  {
+                    "name": "Ranking de TikTok",
+                    "type": "url",
+                    "url": "https://tikrank.com/"     
+                  },
+                  {
+                    "name": "Tubzi Búsquedas, TopVideos",
+                    "type": "url",
+                    "url": "https://tubzi.com/"     
+                  },
+                  {
+                    "name": "Scraper TikTok (Herramienta)",
+                    "type": "url",
+                    "url": "https://github.com/drawrowfly/tiktok-scraper"     
+                  }
+                ],
+                "name": "TikTok",
                 "type": "folder"      
               },
               {  
@@ -2440,6 +2516,11 @@
                 "name": "Freeplane - Mapa (Herramienta)",
                 "type": "url",
                 "url": "https://www.freeplane.org/wiki/index.php/Home"
+              },
+              {
+                "name": "The Open Graph Viz Platform (Gephi) - (Herramienta)",
+                "type": "url",
+                "url": "https://gephi.org/"
               },
               {
                 "name": "Heimer - Mapa (Herramienta)",
