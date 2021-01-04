@@ -595,6 +595,11 @@
                 "url": "pwndb2am4tzkovld.onion.ws/"     
               },
               {
+                "name": "Foxmonitor (Verificar si esta expuesta nuestro email - Muy Bueno)",
+                "type": "url",
+                "url": "https://monitor.firefox.com/"     
+              },
+              {
                 "name": "Hunter.io (Obtener informarción de los email)",
                 "type": "url",
                 "url": "hunter.io"     
@@ -1468,6 +1473,11 @@
                     "name": "Instagram",
                     "type": "url",
                     "url": "https://www.instagram.com"     
+                  },
+                  {
+                    "name": "Denuncias Instagram",
+                    "type": "url",
+                    "url": "https://protege.la/herramientas-de-reporte-en-instagram"     
                   },
                   {
                     "name": "Instagram Pikdo (#tags, @user)",
